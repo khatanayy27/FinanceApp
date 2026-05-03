@@ -1,0 +1,288 @@
+{% extends "base.html" %}
+{% block title %}Transaction Insights{% endblock %}
+
+{% block content %}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="mb-1">Transaction Insights</h2>
+        <p class="text-muted mb-0">SQL-powered analysis of your spending patterns.</p>
+    </div>
+    <a href="{{ url_for('transactions.index') }}" class="btn btn-outline-secondary">
+        <i class="bi bi-arrow-left"></i> Back to Transactions
+    </a>
+</div>
+
+
+<!-- 1. Monthly Income vs Expenses -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-1"><i class="bi bi-bar-chart text-primary me-2"></i>Monthly Income vs Expenses</h5>
+        <p class="text-muted small mb-3">Last 12 months — grouped by calendar month using TO_CHAR and aggregated with conditional SUM.</p>
+        <div class="table-responsive">
+            <table class="table table-sm table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Month</th>
+                        <th class="text-success">Income</th>
+                        <th class="text-danger">Expenses</th>
+                        <th>Net</th>
+                        <th>Bar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in monthly_summary %}
+                    {% set net_val = row.income - row.expenses %}
+                    <tr>
+                        <td class="fw-semibold">{{ row.month }}</td>
+                        <td class="text-success">+${{ "{:,.0f}".format(row.income) }}</td>
+                        <td class="text-danger">-${{ "{:,.0f}".format(row.expenses) }}</td>
+                        <td class="{% if net_val >= 0 %}text-success{% else %}text-danger{% endif %} fw-semibold">
+                            ${{ "{:,.0f}".format(net_val) }}
+                        </td>
+                        <td style="min-width:120px;">
+                            {% set max_val = monthly_summary | map(attribute='expenses') | map('float') | max %}
+                            {% if max_val > 0 %}
+                            <div class="progress" style="height:6px;">
+                                <div class="progress-bar bg-danger"
+                                    style="width:{{ [(row.expenses|float / max_val * 100)|int, 100]|min }}%"></div>
+                            </div>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- 2. Top Spending Categories -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-1"><i class="bi bi-pie-chart text-warning me-2"></i>Top 10 Spending Categories</h5>
+        <p class="text-muted small mb-3">Expenses grouped by category using LEFT JOIN and GROUP BY, ordered by total spend descending.</p>
+        <div class="table-responsive">
+            <table class="table table-sm table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Category</th>
+                        <th>Total Spent</th>
+                        <th>Transactions</th>
+                        <th>Avg per Transaction</th>
+                        <th>Share</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set grand_total = top_categories | sum(attribute='total') | float %}
+                    {% for row in top_categories %}
+                    {% set pct = (row.total|float / grand_total * 100) if grand_total > 0 else 0 %}
+                    <tr>
+                        <td class="text-muted">{{ loop.index }}</td>
+                        <td class="fw-semibold">{{ row.category }}</td>
+                        <td class="text-danger">${{ "{:,.2f}".format(row.total) }}</td>
+                        <td>{{ row.txn_count }}</td>
+                        <td>${{ "{:,.2f}".format(row.avg_amount) }}</td>
+                        <td style="min-width:140px;">
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="progress flex-grow-1" style="height:6px;">
+                                    <div class="progress-bar bg-warning"
+                                         style="width:{{ pct|int }}%"></div>
+                                </div>
+                                <span class="small text-muted">{{ "{:.1f}".format(pct) }}%</span>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- 3. Day-of-Week Spending Pattern -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-1"><i class="bi bi-calendar-week text-info me-2"></i>Spending by Day of Week</h5>
+        <p class="text-muted small mb-3">Identify which days you spend the most money on average.</p>
+        <div class="row g-2">
+            {% set max_avg = dow_spending | map(attribute='avg_spent') | map('float') | max %}
+            {% for row in dow_spending %}
+            <div class="col">
+                <div class="text-center p-2 rounded"
+                     style="background: rgba(13,110,253,{{ [(row.avg_spent|float / max_avg|float * 0.8), 0.05]|max if max_avg > 0 else 0.05 }});">
+                    <div class="small fw-semibold">{{ row.day_name | trim }}</div>
+                    <div class="small text-muted">{{ row.txn_count }} txns</div>
+                    <div class="fw-bold small">${{ "{:,.0f}".format(row.avg_spent) }}</div>
+                    <div class="text-muted" style="font-size:0.7rem;">avg</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+<!-- 4. Largest Individual Transactions -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-1"><i class="bi bi-trophy text-danger me-2"></i>Top 10 Largest Transactions</h5>
+        <p class="text-muted small mb-3">Simple ORDER BY amount DESC with LIMIT.</p>
+        <div class="table-responsive">
+            <table class="table table-sm table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Account</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in largest_txns %}
+                    <tr>
+                        <td class="text-muted">{{ loop.index }}</td>
+                        <td class="text-muted small">{{ row.transaction_date.strftime('%b %d, %Y') }}</td>
+                        <td>{{ row.description or '—' }}</td>
+                        <td><span class="badge bg-light text-dark border">{{ row.category }}</span></td>
+                        <td class="text-muted small">{{ row.account_name }}</td>
+                        <td>
+                            {% if row.transaction_type == 'income' %}
+                            <span class="badge bg-success bg-opacity-10 text-success">Income</span>
+                            {% else %}
+                            <span class="badge bg-danger bg-opacity-10 text-danger">Expense</span>
+                            {% endif %}
+                        </td>
+                        <td class="fw-bold">${{ "{:,.2f}".format(row.amount) }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- 5. Monthly Trend by Top 5 Categories -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-1"><i class="bi bi-graph-up text-success me-2"></i>Monthly Spend per Top Category</h5>
+        <p class="text-muted small mb-3">Multi-dimensional GROUP BY using TO_CHAR and ANY() operator to filter to top 5 categories in last 12 months.</p>
+        <div class="table-responsive">
+            <table class="table table-sm table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Month</th>
+                        {% for cat in top5_names %}
+                        <th class="text-center">{{ cat }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set months = category_monthly | map(attribute='month') | unique | list %}
+                    {% for month in months %}
+                    <tr>
+                        <td class="fw-semibold">{{ month }}</td>
+                        {% for cat in top5_names %}
+                            {% set found = namespace(val=0) %}
+                            {% for row in category_monthly %}
+                                {% if row.month == month and row.category == cat %}
+                                    {% set found.val = row.total %}
+                                {% endif %}
+                            {% endfor %}
+                            <td class="text-center {% if found.val > 0 %}text-danger{% else %}text-muted{% endif %}">
+                                {% if found.val > 0 %}${{ "{:,.0f}".format(found.val) }}{% else %}—{% endif %}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- 6. Recurring Merchants -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-1"><i class="bi bi-arrow-repeat text-secondary me-2"></i>Recurring Merchants</h5>
+        <p class="text-muted small mb-3">find merchants you have paid at least 3 times which detects subscriptions and habits.</p>
+        <div class="table-responsive">
+            <table class="table table-sm table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Merchant / Description</th>
+                        <th>Occurrences</th>
+                        <th>Total Spent</th>
+                        <th>Avg per Visit</th>
+                        <th>First Seen</th>
+                        <th>Last Seen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in recurring %}
+                    <tr>
+                        <td class="fw-semibold">{{ row.description }}</td>
+                        <td>
+                            <span class="badge bg-secondary">{{ row.occurrences }}x</span>
+                        </td>
+                        <td class="text-danger">${{ "{:,.2f}".format(row.total_spent) }}</td>
+                        <td>${{ "{:,.2f}".format(row.avg_amount) }}</td>
+                        <td class="text-muted small">{{ row.first_seen.strftime('%b %d, %Y') }}</td>
+                        <td class="text-muted small">{{ row.last_seen.strftime('%b %d, %Y') }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- 7. Cumulative Balance Over Time -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-1"><i class="bi bi-activity text-primary me-2"></i>Cumulative Balance Over Time</h5>
+        <p class="text-muted small mb-3">SUM() OVER (ORDER BY date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW).</p>
+        <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+            <table class="table table-sm align-middle">
+                <thead class="table-light sticky-top">
+                    <tr>
+                        <th>Date</th>
+                        <th>Running Balance</th>
+                        <th>Trend</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i, row in enumerate(cumulative) %}
+                    {% set prev = cumulative[i-1].running_balance|float if i > 0 else row.running_balance|float %}
+                    <tr>
+                        <td class="text-muted small">{{ row.transaction_date.strftime('%b %d, %Y') }}</td>
+                        <td class="fw-semibold {% if row.running_balance >= 0 %}text-success{% else %}text-danger{% endif %}">
+                            ${{ "{:,.2f}".format(row.running_balance) }}
+                        </td>
+                        <td>
+                            {% if row.running_balance|float > prev %}
+                            <i class="bi bi-arrow-up-short text-success"></i>
+                            {% elif row.running_balance|float < prev %}
+                            <i class="bi bi-arrow-down-short text-danger"></i>
+                            {% else %}
+                            <i class="bi bi-dash text-muted"></i>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

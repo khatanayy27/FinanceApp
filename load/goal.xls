@@ -1,0 +1,282 @@
+goal_id,user_id,goal_name,target_amount,current_amount,target_date,status
+1,1,Tuition Savings,6708.6,6708.6,2026-10-16,Completed
+2,1,Vacation Fund,2673.73,1868.55,2026-11-29,In Progress
+3,1,Home Deposit,7213.26,6618.58,2027-07-28,In Progress
+4,2,Vacation Fund,2453.84,166.87,2027-05-22,In Progress
+5,2,Investment Goal,7327.5,5507.81,2027-12-31,In Progress
+6,3,Home Deposit,16759.87,15832.81,2026-08-16,In Progress
+7,3,Car Down Payment,3626.42,521.9,2027-01-22,In Progress
+8,4,Vacation Fund,3804.5,3306.86,2026-11-21,In Progress
+9,4,New Laptop,949.81,716.97,2027-05-09,Active
+10,5,Vacation Fund,3114.12,785.17,2027-05-06,Active
+11,5,Emergency Fund,7500.75,4449.8,2027-04-09,In Progress
+12,6,Vacation Fund,4689.88,1110.02,2026-12-12,In Progress
+13,6,Investment Goal,4485.09,4201.06,2027-07-02,In Progress
+14,6,Wedding Fund,11924.53,6835.93,2027-09-25,Active
+15,6,New Laptop,2342.03,812.72,2027-12-26,Active
+16,7,Investment Goal,1789.66,477.06,2026-08-02,Active
+17,7,Tuition Savings,9881.09,1962.2,2027-10-19,In Progress
+18,8,New Laptop,1192.94,894.16,2027-02-22,In Progress
+19,8,Wedding Fund,8205.2,6781.74,2027-07-28,Active
+20,8,Vacation Fund,1008.11,980.64,2027-01-14,In Progress
+21,8,Tuition Savings,2268.83,2215.36,2027-01-30,Active
+22,9,Wedding Fund,6109.2,6109.2,2026-10-24,Completed
+23,9,New Laptop,1573.63,1391.21,2027-08-02,In Progress
+24,9,Vacation Fund,943.69,849.09,2027-02-01,Active
+25,10,Vacation Fund,852.91,443.28,2027-07-28,In Progress
+26,10,New Laptop,2209.32,1124.82,2027-06-05,Active
+27,10,Wedding Fund,11427.62,4642.68,2027-04-27,In Progress
+28,10,Emergency Fund,9321.76,471.18,2027-02-06,In Progress
+29,11,Investment Goal,1977.85,1802.89,2027-07-22,In Progress
+30,11,Tuition Savings,4146.14,1068.21,2027-11-11,In Progress
+31,11,New Laptop,2298.25,577.13,2026-12-18,In Progress
+32,12,Tuition Savings,9236.27,1573.9,2027-04-22,In Progress
+33,12,Investment Goal,7354.9,2680.64,2027-01-23,In Progress
+34,12,Car Down Payment,10790.59,7414.59,2027-06-01,In Progress
+35,13,New Laptop,1054.24,204.3,2027-09-06,In Progress
+36,13,Emergency Fund,4989.93,4558.96,2026-05-23,Active
+37,13,Home Deposit,7688.38,4109.19,2027-09-03,In Progress
+38,13,Tuition Savings,11227.74,4543.12,2027-12-15,Active
+39,14,Emergency Fund,4079.82,516.53,2027-01-01,In Progress
+40,14,Car Down Payment,9653.28,4266.9,2027-10-23,In Progress
+41,14,Wedding Fund,16775.91,8026.63,2027-08-16,In Progress
+42,15,New Laptop,1010.79,385.04,2027-12-06,Active
+43,15,Investment Goal,5525.04,893.29,2027-01-27,In Progress
+44,15,Car Down Payment,11006.58,9100.21,2027-01-17,Active
+45,16,Wedding Fund,16554.44,16554.44,2027-03-02,Completed
+46,16,Emergency Fund,8273.94,3172.59,2027-12-11,In Progress
+47,17,Home Deposit,6213.95,6116.07,2026-09-13,In Progress
+48,17,Investment Goal,4229.11,256.56,2026-06-17,In Progress
+49,18,Wedding Fund,3989.35,3274.5,2027-08-11,In Progress
+50,18,Emergency Fund,8449.03,8449.03,2027-12-26,Completed
+51,19,Wedding Fund,12453.21,1819.22,2026-12-25,In Progress
+52,19,Vacation Fund,825.54,549.15,2027-02-13,Active
+53,19,Car Down Payment,8681.27,4266.12,2026-11-04,Active
+54,19,Home Deposit,6498.12,4747.09,2027-04-07,In Progress
+55,20,Tuition Savings,6210.59,1643.07,2027-11-25,In Progress
+56,20,New Laptop,1745.95,994.4,2027-05-01,In Progress
+57,20,Wedding Fund,17352.44,15357.56,2026-05-12,In Progress
+58,20,Emergency Fund,6744.91,2037.95,2027-10-18,In Progress
+59,21,Home Deposit,18745.93,14254.2,2027-03-28,In Progress
+60,21,Tuition Savings,6895.42,1006.65,2027-10-07,Active
+61,21,Vacation Fund,3096.7,2703.34,2026-10-16,Active
+62,21,Investment Goal,1363.88,667.14,2027-03-22,Active
+63,22,Home Deposit,6882.51,2523.43,2026-12-15,Active
+64,22,Investment Goal,1701.98,1446.43,2026-05-08,In Progress
+65,22,Wedding Fund,15450.85,10352.13,2026-09-16,In Progress
+66,23,Home Deposit,13036.68,932.35,2027-06-13,Active
+67,23,New Laptop,1680.98,1119.69,2026-12-03,Active
+68,24,Vacation Fund,2081.97,275.61,2026-10-03,In Progress
+69,24,Tuition Savings,10572.55,7944.78,2026-09-29,Active
+70,24,Wedding Fund,13144.15,3302.42,2026-04-05,Active
+71,25,Home Deposit,20151.69,18581.75,2026-09-05,Active
+72,25,New Laptop,2233.29,1822.26,2026-11-23,In Progress
+73,26,Wedding Fund,13680.16,2889.02,2027-06-16,Active
+74,26,Emergency Fund,4523.33,3768.69,2027-06-27,In Progress
+75,27,New Laptop,1933.56,763.66,2026-10-19,Active
+76,27,Tuition Savings,6242.21,6242.21,2027-09-26,Completed
+77,27,Wedding Fund,4820.28,1313.69,2026-11-12,In Progress
+78,28,Wedding Fund,10235.43,929.05,2026-06-30,Active
+79,28,Vacation Fund,3065.66,481.26,2026-12-07,In Progress
+80,29,Investment Goal,4674.46,4620.05,2026-06-02,Active
+81,29,Vacation Fund,4724.31,597.44,2026-09-18,In Progress
+82,30,New Laptop,1900.87,1513.82,2027-05-31,Active
+83,30,Investment Goal,3451.18,613.07,2026-06-01,In Progress
+84,31,Emergency Fund,8421.02,2717.92,2026-05-19,In Progress
+85,31,Car Down Payment,11704.97,8824.09,2027-11-25,In Progress
+86,32,Vacation Fund,1290.34,715.43,2027-04-16,Active
+87,32,Emergency Fund,7022.22,936.14,2026-06-04,Active
+88,32,Tuition Savings,10370.98,9356.96,2026-04-24,In Progress
+89,32,Car Down Payment,10969.63,3869.88,2026-09-13,In Progress
+90,33,Wedding Fund,19597.49,18722.96,2027-03-06,In Progress
+91,33,Emergency Fund,2479.76,1416.68,2027-07-23,In Progress
+92,33,Home Deposit,21041.7,5157.69,2027-11-25,In Progress
+93,33,Investment Goal,4395.13,2670.99,2027-12-23,In Progress
+94,34,Vacation Fund,2869.98,2707.85,2027-12-06,In Progress
+95,34,New Laptop,1049.19,341.89,2027-02-05,In Progress
+96,34,Tuition Savings,3222.66,1390.38,2027-08-27,Active
+97,34,Investment Goal,6554.28,1120.07,2027-02-20,In Progress
+98,35,Vacation Fund,2267.23,628.87,2027-10-05,In Progress
+99,35,Emergency Fund,7782.34,3029.75,2026-06-06,Active
+100,35,Tuition Savings,10165.46,5261.34,2027-06-02,In Progress
+101,36,New Laptop,2468.88,1958.55,2026-10-05,In Progress
+102,36,Investment Goal,6355.22,4657.06,2027-02-10,Active
+103,36,Car Down Payment,8717.68,553.64,2026-06-11,Active
+104,36,Tuition Savings,10937.22,6569.49,2027-06-06,In Progress
+105,37,Home Deposit,10402.81,885.21,2027-04-13,Active
+106,37,Investment Goal,4692.16,1785.77,2026-06-14,Active
+107,38,Wedding Fund,10653.51,1436.78,2027-06-28,In Progress
+108,38,New Laptop,2249.8,924.32,2027-06-18,In Progress
+109,39,Investment Goal,1408.44,1213.59,2026-07-15,In Progress
+110,39,Emergency Fund,9564.09,3204.54,2026-12-12,In Progress
+111,40,Investment Goal,7447.11,5837.5,2027-10-28,In Progress
+112,40,Vacation Fund,2440.21,473.27,2026-06-07,Active
+113,41,Investment Goal,1065.55,550.82,2027-10-27,Active
+114,41,Tuition Savings,5841.33,972.19,2027-12-11,In Progress
+115,41,Emergency Fund,2005.38,1747.68,2026-12-08,In Progress
+116,42,Investment Goal,1425.39,696.7,2026-07-11,Active
+117,42,New Laptop,1313.63,1282.69,2027-11-26,In Progress
+118,42,Home Deposit,10243.15,4719.19,2026-09-20,Active
+119,43,Home Deposit,20428.05,13214.27,2026-07-08,In Progress
+120,43,Vacation Fund,3257.5,2432.01,2026-11-20,In Progress
+121,43,Car Down Payment,9411.14,9160.76,2027-01-12,In Progress
+122,44,Tuition Savings,11017.7,6873.16,2026-09-11,Active
+123,44,Emergency Fund,5697.21,2968.18,2027-07-09,Active
+124,44,New Laptop,1042.42,437.31,2027-12-11,Active
+125,44,Wedding Fund,19385.99,13514.52,2027-05-07,In Progress
+126,45,Emergency Fund,3640.23,606.3,2027-08-18,Active
+127,45,Investment Goal,4510.9,530.03,2027-07-27,Active
+128,46,Investment Goal,5487.41,3451.99,2026-12-04,Active
+129,46,Wedding Fund,3993.37,429.34,2027-07-28,In Progress
+130,46,Home Deposit,7815.47,2888.21,2026-05-20,In Progress
+131,46,Tuition Savings,10156.57,1034.03,2026-04-06,Active
+132,47,New Laptop,941.52,941.52,2027-01-04,Completed
+133,47,Wedding Fund,9941.16,4316.28,2026-04-04,In Progress
+134,47,Investment Goal,3339.95,3222.15,2027-06-01,In Progress
+135,48,Emergency Fund,7927.7,6216.37,2027-09-16,Active
+136,48,Home Deposit,20366.19,13178.44,2027-07-16,In Progress
+137,48,Vacation Fund,3480.47,1090.53,2026-04-12,In Progress
+138,48,New Laptop,1320.94,218.01,2026-09-25,In Progress
+139,49,Vacation Fund,4061.41,626.03,2026-08-18,In Progress
+140,49,Car Down Payment,5290.09,2901.01,2027-06-25,Active
+141,49,Wedding Fund,15940.94,1309.88,2027-03-03,In Progress
+142,50,Car Down Payment,3672.75,2663.53,2027-03-04,In Progress
+143,50,Home Deposit,7486.32,6699.75,2027-01-14,In Progress
+144,51,Emergency Fund,4981.71,4117.66,2026-09-22,In Progress
+145,51,New Laptop,1226.65,366.09,2027-01-26,In Progress
+146,51,Tuition Savings,9094.06,8082.95,2027-03-19,In Progress
+147,52,Wedding Fund,16955.55,2527.89,2026-05-02,Active
+148,52,Emergency Fund,2085.36,639.48,2026-11-13,Active
+149,52,Vacation Fund,4542.59,903.81,2026-08-27,Active
+150,53,Vacation Fund,944.59,724.95,2027-02-21,In Progress
+151,53,Investment Goal,6649.78,3022.51,2026-05-20,In Progress
+152,54,Home Deposit,16451.33,12540.13,2027-02-15,In Progress
+153,54,Wedding Fund,14548.0,2240.09,2027-06-18,Active
+154,54,Car Down Payment,13621.41,11377.24,2026-08-23,In Progress
+155,55,Emergency Fund,5489.8,3542.54,2027-06-08,In Progress
+156,55,Home Deposit,11854.5,9938.64,2027-11-18,In Progress
+157,55,Investment Goal,2826.78,2109.63,2026-11-02,Active
+158,56,Wedding Fund,4871.61,4513.82,2027-10-24,Active
+159,56,Emergency Fund,2627.39,1427.94,2026-06-20,In Progress
+160,57,Wedding Fund,10795.39,10324.83,2027-11-27,In Progress
+161,57,Home Deposit,18773.99,13938.71,2027-06-10,In Progress
+162,58,Vacation Fund,2929.82,1632.65,2027-09-05,Active
+163,58,Car Down Payment,13635.78,11862.67,2027-04-22,In Progress
+164,58,Home Deposit,24553.14,11563.4,2027-07-06,Active
+165,58,New Laptop,1023.79,1023.79,2027-03-16,Completed
+166,59,Emergency Fund,4124.95,1013.59,2027-08-04,In Progress
+167,59,Car Down Payment,14479.96,3034.52,2026-12-29,In Progress
+168,59,New Laptop,2420.53,2019.0,2027-01-02,In Progress
+169,59,Tuition Savings,11311.0,3655.72,2027-01-07,In Progress
+170,60,New Laptop,1735.1,1280.15,2027-11-29,In Progress
+171,60,Tuition Savings,7943.62,1071.62,2027-07-12,Active
+172,61,Vacation Fund,4283.05,1832.75,2026-12-09,Active
+173,61,Car Down Payment,6761.37,4272.05,2027-09-02,In Progress
+174,61,New Laptop,1009.65,478.68,2026-10-24,Active
+175,62,Emergency Fund,5741.51,4481.53,2027-05-08,Active
+176,62,Investment Goal,3302.55,1122.42,2026-04-04,In Progress
+177,63,Vacation Fund,4849.67,4182.57,2026-10-01,Active
+178,63,Investment Goal,4675.26,2379.83,2026-08-15,In Progress
+179,64,Investment Goal,7672.3,6363.98,2027-02-12,In Progress
+180,64,Car Down Payment,12790.31,6963.53,2027-04-26,Active
+181,64,Emergency Fund,2349.03,638.53,2027-12-31,In Progress
+182,65,Home Deposit,8946.33,8661.61,2027-08-18,In Progress
+183,65,Vacation Fund,1246.12,1239.52,2027-03-10,In Progress
+184,65,New Laptop,1115.13,1021.82,2026-04-10,In Progress
+185,65,Wedding Fund,9841.75,3049.89,2027-06-21,In Progress
+186,66,Home Deposit,10003.68,3335.85,2027-11-15,Active
+187,66,New Laptop,1034.2,116.0,2026-12-30,In Progress
+188,66,Tuition Savings,7831.0,3925.18,2027-02-01,In Progress
+189,67,Home Deposit,8191.72,1054.25,2027-02-01,In Progress
+190,67,Car Down Payment,10298.04,8019.71,2027-06-17,In Progress
+191,67,Emergency Fund,7119.47,2497.7,2027-03-27,In Progress
+192,68,New Laptop,1296.86,1262.4,2027-12-28,In Progress
+193,68,Emergency Fund,2664.14,1685.48,2027-09-21,In Progress
+194,68,Wedding Fund,18597.96,15858.02,2026-05-19,Active
+195,69,New Laptop,1621.91,868.92,2026-09-30,In Progress
+196,69,Tuition Savings,9742.94,5313.13,2026-06-18,In Progress
+197,70,Wedding Fund,16829.56,12820.53,2027-05-22,In Progress
+198,70,Emergency Fund,5301.65,4248.53,2027-01-20,Active
+199,71,Tuition Savings,7605.34,3623.1,2027-01-11,In Progress
+200,71,Investment Goal,3074.62,730.31,2027-03-06,In Progress
+201,71,Vacation Fund,2696.51,2696.51,2027-11-08,Completed
+202,71,Car Down Payment,13894.29,13894.29,2027-04-10,Completed
+203,72,Home Deposit,14512.36,14512.36,2027-05-17,Completed
+204,72,Tuition Savings,2424.79,288.63,2026-09-26,Active
+205,72,New Laptop,2339.51,334.01,2026-07-23,In Progress
+206,73,Vacation Fund,3278.0,2924.68,2027-01-04,In Progress
+207,73,Car Down Payment,6719.68,4678.22,2026-10-10,Active
+208,73,Tuition Savings,7825.65,2059.61,2027-01-04,In Progress
+209,74,Emergency Fund,3340.35,2443.92,2027-02-24,In Progress
+210,74,Investment Goal,7577.07,5860.33,2027-07-25,In Progress
+211,74,New Laptop,2419.92,520.82,2027-06-26,In Progress
+212,75,Vacation Fund,3133.42,1838.61,2027-10-27,In Progress
+213,75,Car Down Payment,5175.23,988.56,2027-12-06,Active
+214,76,Investment Goal,4373.12,1617.71,2027-12-30,In Progress
+215,76,Car Down Payment,9814.43,5755.22,2026-07-13,Active
+216,76,Wedding Fund,12366.7,9290.56,2027-12-13,In Progress
+217,77,Emergency Fund,4404.98,736.14,2027-02-12,Active
+218,77,New Laptop,1720.37,560.26,2026-07-28,In Progress
+219,77,Tuition Savings,2667.4,1544.4,2026-11-24,In Progress
+220,77,Wedding Fund,15331.74,6920.01,2026-04-19,In Progress
+221,78,Vacation Fund,3328.2,1963.26,2027-08-16,In Progress
+222,78,Home Deposit,9770.72,1201.2,2027-05-11,Active
+223,78,Car Down Payment,5944.2,5347.39,2027-06-24,Active
+224,79,Vacation Fund,2362.82,1443.71,2027-05-08,In Progress
+225,79,Tuition Savings,2648.75,789.77,2027-03-18,In Progress
+226,80,Home Deposit,15146.98,5706.38,2026-04-21,Active
+227,80,New Laptop,2108.48,1109.15,2027-02-11,In Progress
+228,80,Tuition Savings,2612.29,2612.29,2026-06-13,Completed
+229,81,Wedding Fund,7979.25,5707.07,2027-07-05,In Progress
+230,81,New Laptop,1777.12,601.59,2027-07-28,In Progress
+231,81,Emergency Fund,9536.06,704.71,2027-04-05,Active
+232,82,Car Down Payment,8938.74,8728.02,2027-10-04,Active
+233,82,Tuition Savings,4387.22,2791.3,2026-08-06,Active
+234,83,Car Down Payment,11065.25,8672.45,2027-10-19,In Progress
+235,83,Tuition Savings,11581.37,3798.39,2026-05-17,Active
+236,84,Investment Goal,2564.18,495.89,2027-10-02,In Progress
+237,84,New Laptop,2343.32,1593.93,2026-09-19,In Progress
+238,85,Investment Goal,1290.32,1002.29,2027-02-22,In Progress
+239,85,Car Down Payment,7524.21,7524.21,2027-11-29,Completed
+240,86,Tuition Savings,10189.61,2264.5,2026-09-09,In Progress
+241,86,Vacation Fund,4591.79,1545.41,2026-08-31,In Progress
+242,86,New Laptop,1702.45,506.36,2026-11-11,In Progress
+243,87,Car Down Payment,7545.26,6211.55,2026-11-09,Active
+244,87,Vacation Fund,1556.94,311.31,2027-03-05,In Progress
+245,87,Wedding Fund,9383.01,5150.34,2027-09-23,In Progress
+246,88,Tuition Savings,4721.01,4518.48,2026-11-11,In Progress
+247,88,Wedding Fund,3430.59,2959.72,2026-06-25,Active
+248,89,Vacation Fund,3780.61,3732.47,2026-08-24,In Progress
+249,89,Wedding Fund,7759.49,6692.52,2027-12-05,In Progress
+250,89,Home Deposit,13746.49,3799.81,2027-08-18,Active
+251,89,Tuition Savings,5705.02,1068.92,2027-09-03,Active
+252,90,New Laptop,2117.26,572.45,2026-12-25,In Progress
+253,90,Emergency Fund,6942.55,597.65,2027-12-12,In Progress
+254,91,Car Down Payment,8312.46,4851.18,2027-01-08,In Progress
+255,91,Investment Goal,7575.98,2982.1,2027-11-30,Active
+256,92,Tuition Savings,5059.16,4224.75,2027-07-19,Active
+257,92,New Laptop,2374.27,1280.34,2027-10-28,In Progress
+258,92,Wedding Fund,6198.67,5220.12,2026-12-16,In Progress
+259,93,Car Down Payment,7462.99,5520.06,2026-11-11,Active
+260,93,Vacation Fund,2868.85,1119.64,2027-11-30,In Progress
+261,93,Investment Goal,2371.28,2255.41,2027-05-04,In Progress
+262,93,New Laptop,1427.84,233.96,2026-12-15,In Progress
+263,94,Home Deposit,17307.61,8564.03,2027-06-28,In Progress
+264,94,Wedding Fund,3593.67,1896.33,2026-07-05,In Progress
+265,94,Investment Goal,3531.86,2456.87,2027-10-05,Active
+266,95,Car Down Payment,13835.61,3905.85,2026-09-18,In Progress
+267,95,Home Deposit,20448.7,14383.62,2027-03-11,In Progress
+268,96,Vacation Fund,2207.96,1327.08,2026-05-27,In Progress
+269,96,Investment Goal,5948.98,1741.69,2026-06-25,In Progress
+270,97,Car Down Payment,5310.74,3780.6,2026-08-10,In Progress
+271,97,Investment Goal,1926.08,256.21,2026-11-20,In Progress
+272,98,New Laptop,2139.46,191.08,2027-10-04,In Progress
+273,98,Home Deposit,12877.34,12877.34,2027-10-22,Completed
+274,98,Vacation Fund,3722.01,2578.0,2026-11-22,In Progress
+275,98,Car Down Payment,3008.8,1596.51,2027-12-29,Active
+276,99,Tuition Savings,6075.47,1691.11,2027-12-17,Active
+277,99,Investment Goal,4567.33,2297.4,2027-10-27,In Progress
+278,99,Home Deposit,23936.29,14988.12,2027-11-04,Active
+279,100,Vacation Fund,1340.57,1321.59,2027-11-17,In Progress
+280,100,Emergency Fund,7197.83,4146.1,2027-02-22,In Progress
+281,100,Home Deposit,5284.41,3268.85,2027-06-28,In Progress

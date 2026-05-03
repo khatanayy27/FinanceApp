@@ -1,0 +1,2007 @@
+category_id,user_id,category_name,category_type
+1,1,Salary,income
+2,1,Freelance,income
+3,1,Refund,income
+4,1,Gift,income
+5,1,Interest,income
+6,1,Credit Card Payment,income
+7,1,Rent,expense
+8,1,Groceries,expense
+9,1,Bills,expense
+10,1,Travel,expense
+11,1,Food,expense
+12,1,Transport,expense
+13,1,Entertainment,expense
+14,1,Healthcare,expense
+15,1,Shopping,expense
+16,1,Savings Contribution,expense
+17,1,Transfer Out,expense
+18,1,Pet Care,expense
+19,1,Car Maintenance,expense
+20,2,Salary,income
+21,2,Freelance,income
+22,2,Refund,income
+23,2,Gift,income
+24,2,Interest,income
+25,2,Credit Card Payment,income
+26,2,Rent,expense
+27,2,Groceries,expense
+28,2,Bills,expense
+29,2,Travel,expense
+30,2,Food,expense
+31,2,Transport,expense
+32,2,Entertainment,expense
+33,2,Healthcare,expense
+34,2,Shopping,expense
+35,2,Savings Contribution,expense
+36,2,Transfer Out,expense
+37,2,Streaming,expense
+38,2,Car Maintenance,expense
+39,2,Insurance,expense
+40,2,Coffee,expense
+41,3,Salary,income
+42,3,Freelance,income
+43,3,Refund,income
+44,3,Gift,income
+45,3,Interest,income
+46,3,Credit Card Payment,income
+47,3,Rent,expense
+48,3,Groceries,expense
+49,3,Bills,expense
+50,3,Travel,expense
+51,3,Food,expense
+52,3,Transport,expense
+53,3,Entertainment,expense
+54,3,Healthcare,expense
+55,3,Shopping,expense
+56,3,Savings Contribution,expense
+57,3,Transfer Out,expense
+58,3,Streaming,expense
+59,3,Phone,expense
+60,3,Tuition,expense
+61,4,Salary,income
+62,4,Freelance,income
+63,4,Refund,income
+64,4,Gift,income
+65,4,Interest,income
+66,4,Credit Card Payment,income
+67,4,Rent,expense
+68,4,Groceries,expense
+69,4,Bills,expense
+70,4,Travel,expense
+71,4,Food,expense
+72,4,Transport,expense
+73,4,Entertainment,expense
+74,4,Healthcare,expense
+75,4,Shopping,expense
+76,4,Savings Contribution,expense
+77,4,Transfer Out,expense
+78,4,Gym,expense
+79,4,Car Maintenance,expense
+80,5,Salary,income
+81,5,Freelance,income
+82,5,Refund,income
+83,5,Gift,income
+84,5,Interest,income
+85,5,Credit Card Payment,income
+86,5,Rent,expense
+87,5,Groceries,expense
+88,5,Bills,expense
+89,5,Travel,expense
+90,5,Food,expense
+91,5,Transport,expense
+92,5,Entertainment,expense
+93,5,Healthcare,expense
+94,5,Shopping,expense
+95,5,Savings Contribution,expense
+96,5,Transfer Out,expense
+97,5,Clothing,expense
+98,5,Streaming,expense
+99,5,Home Supplies,expense
+100,6,Salary,income
+101,6,Freelance,income
+102,6,Refund,income
+103,6,Gift,income
+104,6,Interest,income
+105,6,Credit Card Payment,income
+106,6,Rent,expense
+107,6,Groceries,expense
+108,6,Bills,expense
+109,6,Travel,expense
+110,6,Food,expense
+111,6,Transport,expense
+112,6,Entertainment,expense
+113,6,Healthcare,expense
+114,6,Shopping,expense
+115,6,Savings Contribution,expense
+116,6,Transfer Out,expense
+117,6,Streaming,expense
+118,6,Car Maintenance,expense
+119,6,Insurance,expense
+120,6,Pet Care,expense
+121,7,Salary,income
+122,7,Freelance,income
+123,7,Refund,income
+124,7,Gift,income
+125,7,Interest,income
+126,7,Credit Card Payment,income
+127,7,Rent,expense
+128,7,Groceries,expense
+129,7,Bills,expense
+130,7,Travel,expense
+131,7,Food,expense
+132,7,Transport,expense
+133,7,Entertainment,expense
+134,7,Healthcare,expense
+135,7,Shopping,expense
+136,7,Savings Contribution,expense
+137,7,Transfer Out,expense
+138,7,Car Maintenance,expense
+139,7,Gym,expense
+140,7,Pet Care,expense
+141,8,Salary,income
+142,8,Freelance,income
+143,8,Refund,income
+144,8,Gift,income
+145,8,Interest,income
+146,8,Credit Card Payment,income
+147,8,Rent,expense
+148,8,Groceries,expense
+149,8,Bills,expense
+150,8,Travel,expense
+151,8,Food,expense
+152,8,Transport,expense
+153,8,Entertainment,expense
+154,8,Healthcare,expense
+155,8,Shopping,expense
+156,8,Savings Contribution,expense
+157,8,Transfer Out,expense
+158,8,Clothing,expense
+159,8,Dining Out,expense
+160,8,Insurance,expense
+161,9,Salary,income
+162,9,Freelance,income
+163,9,Refund,income
+164,9,Gift,income
+165,9,Interest,income
+166,9,Credit Card Payment,income
+167,9,Rent,expense
+168,9,Groceries,expense
+169,9,Bills,expense
+170,9,Travel,expense
+171,9,Food,expense
+172,9,Transport,expense
+173,9,Entertainment,expense
+174,9,Healthcare,expense
+175,9,Shopping,expense
+176,9,Savings Contribution,expense
+177,9,Transfer Out,expense
+178,9,Insurance,expense
+179,9,Streaming,expense
+180,9,Coffee,expense
+181,10,Salary,income
+182,10,Freelance,income
+183,10,Refund,income
+184,10,Gift,income
+185,10,Interest,income
+186,10,Credit Card Payment,income
+187,10,Rent,expense
+188,10,Groceries,expense
+189,10,Bills,expense
+190,10,Travel,expense
+191,10,Food,expense
+192,10,Transport,expense
+193,10,Entertainment,expense
+194,10,Healthcare,expense
+195,10,Shopping,expense
+196,10,Savings Contribution,expense
+197,10,Transfer Out,expense
+198,10,Home Supplies,expense
+199,10,Streaming,expense
+200,10,Coffee,expense
+201,10,Clothing,expense
+202,11,Salary,income
+203,11,Freelance,income
+204,11,Refund,income
+205,11,Gift,income
+206,11,Interest,income
+207,11,Credit Card Payment,income
+208,11,Rent,expense
+209,11,Groceries,expense
+210,11,Bills,expense
+211,11,Travel,expense
+212,11,Food,expense
+213,11,Transport,expense
+214,11,Entertainment,expense
+215,11,Healthcare,expense
+216,11,Shopping,expense
+217,11,Savings Contribution,expense
+218,11,Transfer Out,expense
+219,11,Insurance,expense
+220,11,Car Maintenance,expense
+221,11,Streaming,expense
+222,11,Pet Care,expense
+223,12,Salary,income
+224,12,Freelance,income
+225,12,Refund,income
+226,12,Gift,income
+227,12,Interest,income
+228,12,Credit Card Payment,income
+229,12,Rent,expense
+230,12,Groceries,expense
+231,12,Bills,expense
+232,12,Travel,expense
+233,12,Food,expense
+234,12,Transport,expense
+235,12,Entertainment,expense
+236,12,Healthcare,expense
+237,12,Shopping,expense
+238,12,Savings Contribution,expense
+239,12,Transfer Out,expense
+240,12,Dining Out,expense
+241,12,Pet Care,expense
+242,12,Phone,expense
+243,12,Streaming,expense
+244,13,Salary,income
+245,13,Freelance,income
+246,13,Refund,income
+247,13,Gift,income
+248,13,Interest,income
+249,13,Credit Card Payment,income
+250,13,Rent,expense
+251,13,Groceries,expense
+252,13,Bills,expense
+253,13,Travel,expense
+254,13,Food,expense
+255,13,Transport,expense
+256,13,Entertainment,expense
+257,13,Healthcare,expense
+258,13,Shopping,expense
+259,13,Savings Contribution,expense
+260,13,Transfer Out,expense
+261,13,Insurance,expense
+262,13,Phone,expense
+263,13,Books,expense
+264,13,Gym,expense
+265,14,Salary,income
+266,14,Freelance,income
+267,14,Refund,income
+268,14,Gift,income
+269,14,Interest,income
+270,14,Credit Card Payment,income
+271,14,Rent,expense
+272,14,Groceries,expense
+273,14,Bills,expense
+274,14,Travel,expense
+275,14,Food,expense
+276,14,Transport,expense
+277,14,Entertainment,expense
+278,14,Healthcare,expense
+279,14,Shopping,expense
+280,14,Savings Contribution,expense
+281,14,Transfer Out,expense
+282,14,Phone,expense
+283,14,Coffee,expense
+284,14,Streaming,expense
+285,14,Car Maintenance,expense
+286,15,Salary,income
+287,15,Freelance,income
+288,15,Refund,income
+289,15,Gift,income
+290,15,Interest,income
+291,15,Credit Card Payment,income
+292,15,Rent,expense
+293,15,Groceries,expense
+294,15,Bills,expense
+295,15,Travel,expense
+296,15,Food,expense
+297,15,Transport,expense
+298,15,Entertainment,expense
+299,15,Healthcare,expense
+300,15,Shopping,expense
+301,15,Savings Contribution,expense
+302,15,Transfer Out,expense
+303,15,Clothing,expense
+304,15,Dining Out,expense
+305,16,Salary,income
+306,16,Freelance,income
+307,16,Refund,income
+308,16,Gift,income
+309,16,Interest,income
+310,16,Credit Card Payment,income
+311,16,Rent,expense
+312,16,Groceries,expense
+313,16,Bills,expense
+314,16,Travel,expense
+315,16,Food,expense
+316,16,Transport,expense
+317,16,Entertainment,expense
+318,16,Healthcare,expense
+319,16,Shopping,expense
+320,16,Savings Contribution,expense
+321,16,Transfer Out,expense
+322,16,Books,expense
+323,16,Gym,expense
+324,16,Streaming,expense
+325,16,Dining Out,expense
+326,17,Salary,income
+327,17,Freelance,income
+328,17,Refund,income
+329,17,Gift,income
+330,17,Interest,income
+331,17,Credit Card Payment,income
+332,17,Rent,expense
+333,17,Groceries,expense
+334,17,Bills,expense
+335,17,Travel,expense
+336,17,Food,expense
+337,17,Transport,expense
+338,17,Entertainment,expense
+339,17,Healthcare,expense
+340,17,Shopping,expense
+341,17,Savings Contribution,expense
+342,17,Transfer Out,expense
+343,17,Home Supplies,expense
+344,17,Books,expense
+345,17,Pet Care,expense
+346,17,Phone,expense
+347,18,Salary,income
+348,18,Freelance,income
+349,18,Refund,income
+350,18,Gift,income
+351,18,Interest,income
+352,18,Credit Card Payment,income
+353,18,Rent,expense
+354,18,Groceries,expense
+355,18,Bills,expense
+356,18,Travel,expense
+357,18,Food,expense
+358,18,Transport,expense
+359,18,Entertainment,expense
+360,18,Healthcare,expense
+361,18,Shopping,expense
+362,18,Savings Contribution,expense
+363,18,Transfer Out,expense
+364,18,Dining Out,expense
+365,18,Tuition,expense
+366,18,Phone,expense
+367,18,Streaming,expense
+368,19,Salary,income
+369,19,Freelance,income
+370,19,Refund,income
+371,19,Gift,income
+372,19,Interest,income
+373,19,Credit Card Payment,income
+374,19,Rent,expense
+375,19,Groceries,expense
+376,19,Bills,expense
+377,19,Travel,expense
+378,19,Food,expense
+379,19,Transport,expense
+380,19,Entertainment,expense
+381,19,Healthcare,expense
+382,19,Shopping,expense
+383,19,Savings Contribution,expense
+384,19,Transfer Out,expense
+385,19,Streaming,expense
+386,19,Car Maintenance,expense
+387,20,Salary,income
+388,20,Freelance,income
+389,20,Refund,income
+390,20,Gift,income
+391,20,Interest,income
+392,20,Credit Card Payment,income
+393,20,Rent,expense
+394,20,Groceries,expense
+395,20,Bills,expense
+396,20,Travel,expense
+397,20,Food,expense
+398,20,Transport,expense
+399,20,Entertainment,expense
+400,20,Healthcare,expense
+401,20,Shopping,expense
+402,20,Savings Contribution,expense
+403,20,Transfer Out,expense
+404,20,Insurance,expense
+405,20,Dining Out,expense
+406,20,Gym,expense
+407,21,Salary,income
+408,21,Freelance,income
+409,21,Refund,income
+410,21,Gift,income
+411,21,Interest,income
+412,21,Credit Card Payment,income
+413,21,Rent,expense
+414,21,Groceries,expense
+415,21,Bills,expense
+416,21,Travel,expense
+417,21,Food,expense
+418,21,Transport,expense
+419,21,Entertainment,expense
+420,21,Healthcare,expense
+421,21,Shopping,expense
+422,21,Savings Contribution,expense
+423,21,Transfer Out,expense
+424,21,Gym,expense
+425,21,Books,expense
+426,21,Pet Care,expense
+427,22,Salary,income
+428,22,Freelance,income
+429,22,Refund,income
+430,22,Gift,income
+431,22,Interest,income
+432,22,Credit Card Payment,income
+433,22,Rent,expense
+434,22,Groceries,expense
+435,22,Bills,expense
+436,22,Travel,expense
+437,22,Food,expense
+438,22,Transport,expense
+439,22,Entertainment,expense
+440,22,Healthcare,expense
+441,22,Shopping,expense
+442,22,Savings Contribution,expense
+443,22,Transfer Out,expense
+444,22,Insurance,expense
+445,22,Phone,expense
+446,22,Home Supplies,expense
+447,22,Tuition,expense
+448,23,Salary,income
+449,23,Freelance,income
+450,23,Refund,income
+451,23,Gift,income
+452,23,Interest,income
+453,23,Credit Card Payment,income
+454,23,Rent,expense
+455,23,Groceries,expense
+456,23,Bills,expense
+457,23,Travel,expense
+458,23,Food,expense
+459,23,Transport,expense
+460,23,Entertainment,expense
+461,23,Healthcare,expense
+462,23,Shopping,expense
+463,23,Savings Contribution,expense
+464,23,Transfer Out,expense
+465,23,Gym,expense
+466,23,Home Supplies,expense
+467,23,Coffee,expense
+468,24,Salary,income
+469,24,Freelance,income
+470,24,Refund,income
+471,24,Gift,income
+472,24,Interest,income
+473,24,Credit Card Payment,income
+474,24,Rent,expense
+475,24,Groceries,expense
+476,24,Bills,expense
+477,24,Travel,expense
+478,24,Food,expense
+479,24,Transport,expense
+480,24,Entertainment,expense
+481,24,Healthcare,expense
+482,24,Shopping,expense
+483,24,Savings Contribution,expense
+484,24,Transfer Out,expense
+485,24,Tuition,expense
+486,24,Gym,expense
+487,24,Car Maintenance,expense
+488,25,Salary,income
+489,25,Freelance,income
+490,25,Refund,income
+491,25,Gift,income
+492,25,Interest,income
+493,25,Credit Card Payment,income
+494,25,Rent,expense
+495,25,Groceries,expense
+496,25,Bills,expense
+497,25,Travel,expense
+498,25,Food,expense
+499,25,Transport,expense
+500,25,Entertainment,expense
+501,25,Healthcare,expense
+502,25,Shopping,expense
+503,25,Savings Contribution,expense
+504,25,Transfer Out,expense
+505,25,Phone,expense
+506,25,Insurance,expense
+507,25,Streaming,expense
+508,26,Salary,income
+509,26,Freelance,income
+510,26,Refund,income
+511,26,Gift,income
+512,26,Interest,income
+513,26,Credit Card Payment,income
+514,26,Rent,expense
+515,26,Groceries,expense
+516,26,Bills,expense
+517,26,Travel,expense
+518,26,Food,expense
+519,26,Transport,expense
+520,26,Entertainment,expense
+521,26,Healthcare,expense
+522,26,Shopping,expense
+523,26,Savings Contribution,expense
+524,26,Transfer Out,expense
+525,26,Home Supplies,expense
+526,26,Phone,expense
+527,26,Dining Out,expense
+528,26,Gym,expense
+529,27,Salary,income
+530,27,Freelance,income
+531,27,Refund,income
+532,27,Gift,income
+533,27,Interest,income
+534,27,Credit Card Payment,income
+535,27,Rent,expense
+536,27,Groceries,expense
+537,27,Bills,expense
+538,27,Travel,expense
+539,27,Food,expense
+540,27,Transport,expense
+541,27,Entertainment,expense
+542,27,Healthcare,expense
+543,27,Shopping,expense
+544,27,Savings Contribution,expense
+545,27,Transfer Out,expense
+546,27,Pet Care,expense
+547,27,Car Maintenance,expense
+548,27,Coffee,expense
+549,27,Tuition,expense
+550,28,Salary,income
+551,28,Freelance,income
+552,28,Refund,income
+553,28,Gift,income
+554,28,Interest,income
+555,28,Credit Card Payment,income
+556,28,Rent,expense
+557,28,Groceries,expense
+558,28,Bills,expense
+559,28,Travel,expense
+560,28,Food,expense
+561,28,Transport,expense
+562,28,Entertainment,expense
+563,28,Healthcare,expense
+564,28,Shopping,expense
+565,28,Savings Contribution,expense
+566,28,Transfer Out,expense
+567,28,Clothing,expense
+568,28,Pet Care,expense
+569,28,Gym,expense
+570,29,Salary,income
+571,29,Freelance,income
+572,29,Refund,income
+573,29,Gift,income
+574,29,Interest,income
+575,29,Credit Card Payment,income
+576,29,Rent,expense
+577,29,Groceries,expense
+578,29,Bills,expense
+579,29,Travel,expense
+580,29,Food,expense
+581,29,Transport,expense
+582,29,Entertainment,expense
+583,29,Healthcare,expense
+584,29,Shopping,expense
+585,29,Savings Contribution,expense
+586,29,Transfer Out,expense
+587,29,Car Maintenance,expense
+588,29,Streaming,expense
+589,29,Home Supplies,expense
+590,29,Gym,expense
+591,30,Salary,income
+592,30,Freelance,income
+593,30,Refund,income
+594,30,Gift,income
+595,30,Interest,income
+596,30,Credit Card Payment,income
+597,30,Rent,expense
+598,30,Groceries,expense
+599,30,Bills,expense
+600,30,Travel,expense
+601,30,Food,expense
+602,30,Transport,expense
+603,30,Entertainment,expense
+604,30,Healthcare,expense
+605,30,Shopping,expense
+606,30,Savings Contribution,expense
+607,30,Transfer Out,expense
+608,30,Coffee,expense
+609,30,Insurance,expense
+610,31,Salary,income
+611,31,Freelance,income
+612,31,Refund,income
+613,31,Gift,income
+614,31,Interest,income
+615,31,Credit Card Payment,income
+616,31,Rent,expense
+617,31,Groceries,expense
+618,31,Bills,expense
+619,31,Travel,expense
+620,31,Food,expense
+621,31,Transport,expense
+622,31,Entertainment,expense
+623,31,Healthcare,expense
+624,31,Shopping,expense
+625,31,Savings Contribution,expense
+626,31,Transfer Out,expense
+627,31,Car Maintenance,expense
+628,31,Gym,expense
+629,31,Phone,expense
+630,32,Salary,income
+631,32,Freelance,income
+632,32,Refund,income
+633,32,Gift,income
+634,32,Interest,income
+635,32,Credit Card Payment,income
+636,32,Rent,expense
+637,32,Groceries,expense
+638,32,Bills,expense
+639,32,Travel,expense
+640,32,Food,expense
+641,32,Transport,expense
+642,32,Entertainment,expense
+643,32,Healthcare,expense
+644,32,Shopping,expense
+645,32,Savings Contribution,expense
+646,32,Transfer Out,expense
+647,32,Tuition,expense
+648,32,Books,expense
+649,33,Salary,income
+650,33,Freelance,income
+651,33,Refund,income
+652,33,Gift,income
+653,33,Interest,income
+654,33,Credit Card Payment,income
+655,33,Rent,expense
+656,33,Groceries,expense
+657,33,Bills,expense
+658,33,Travel,expense
+659,33,Food,expense
+660,33,Transport,expense
+661,33,Entertainment,expense
+662,33,Healthcare,expense
+663,33,Shopping,expense
+664,33,Savings Contribution,expense
+665,33,Transfer Out,expense
+666,33,Car Maintenance,expense
+667,33,Dining Out,expense
+668,33,Tuition,expense
+669,34,Salary,income
+670,34,Freelance,income
+671,34,Refund,income
+672,34,Gift,income
+673,34,Interest,income
+674,34,Credit Card Payment,income
+675,34,Rent,expense
+676,34,Groceries,expense
+677,34,Bills,expense
+678,34,Travel,expense
+679,34,Food,expense
+680,34,Transport,expense
+681,34,Entertainment,expense
+682,34,Healthcare,expense
+683,34,Shopping,expense
+684,34,Savings Contribution,expense
+685,34,Transfer Out,expense
+686,34,Clothing,expense
+687,34,Books,expense
+688,34,Home Supplies,expense
+689,35,Salary,income
+690,35,Freelance,income
+691,35,Refund,income
+692,35,Gift,income
+693,35,Interest,income
+694,35,Credit Card Payment,income
+695,35,Rent,expense
+696,35,Groceries,expense
+697,35,Bills,expense
+698,35,Travel,expense
+699,35,Food,expense
+700,35,Transport,expense
+701,35,Entertainment,expense
+702,35,Healthcare,expense
+703,35,Shopping,expense
+704,35,Savings Contribution,expense
+705,35,Transfer Out,expense
+706,35,Gym,expense
+707,35,Car Maintenance,expense
+708,35,Clothing,expense
+709,35,Home Supplies,expense
+710,36,Salary,income
+711,36,Freelance,income
+712,36,Refund,income
+713,36,Gift,income
+714,36,Interest,income
+715,36,Credit Card Payment,income
+716,36,Rent,expense
+717,36,Groceries,expense
+718,36,Bills,expense
+719,36,Travel,expense
+720,36,Food,expense
+721,36,Transport,expense
+722,36,Entertainment,expense
+723,36,Healthcare,expense
+724,36,Shopping,expense
+725,36,Savings Contribution,expense
+726,36,Transfer Out,expense
+727,36,Coffee,expense
+728,36,Dining Out,expense
+729,36,Pet Care,expense
+730,37,Salary,income
+731,37,Freelance,income
+732,37,Refund,income
+733,37,Gift,income
+734,37,Interest,income
+735,37,Credit Card Payment,income
+736,37,Rent,expense
+737,37,Groceries,expense
+738,37,Bills,expense
+739,37,Travel,expense
+740,37,Food,expense
+741,37,Transport,expense
+742,37,Entertainment,expense
+743,37,Healthcare,expense
+744,37,Shopping,expense
+745,37,Savings Contribution,expense
+746,37,Transfer Out,expense
+747,37,Car Maintenance,expense
+748,37,Pet Care,expense
+749,37,Dining Out,expense
+750,38,Salary,income
+751,38,Freelance,income
+752,38,Refund,income
+753,38,Gift,income
+754,38,Interest,income
+755,38,Credit Card Payment,income
+756,38,Rent,expense
+757,38,Groceries,expense
+758,38,Bills,expense
+759,38,Travel,expense
+760,38,Food,expense
+761,38,Transport,expense
+762,38,Entertainment,expense
+763,38,Healthcare,expense
+764,38,Shopping,expense
+765,38,Savings Contribution,expense
+766,38,Transfer Out,expense
+767,38,Phone,expense
+768,38,Dining Out,expense
+769,39,Salary,income
+770,39,Freelance,income
+771,39,Refund,income
+772,39,Gift,income
+773,39,Interest,income
+774,39,Credit Card Payment,income
+775,39,Rent,expense
+776,39,Groceries,expense
+777,39,Bills,expense
+778,39,Travel,expense
+779,39,Food,expense
+780,39,Transport,expense
+781,39,Entertainment,expense
+782,39,Healthcare,expense
+783,39,Shopping,expense
+784,39,Savings Contribution,expense
+785,39,Transfer Out,expense
+786,39,Phone,expense
+787,39,Dining Out,expense
+788,39,Coffee,expense
+789,39,Home Supplies,expense
+790,40,Salary,income
+791,40,Freelance,income
+792,40,Refund,income
+793,40,Gift,income
+794,40,Interest,income
+795,40,Credit Card Payment,income
+796,40,Rent,expense
+797,40,Groceries,expense
+798,40,Bills,expense
+799,40,Travel,expense
+800,40,Food,expense
+801,40,Transport,expense
+802,40,Entertainment,expense
+803,40,Healthcare,expense
+804,40,Shopping,expense
+805,40,Savings Contribution,expense
+806,40,Transfer Out,expense
+807,40,Pet Care,expense
+808,40,Gym,expense
+809,40,Car Maintenance,expense
+810,41,Salary,income
+811,41,Freelance,income
+812,41,Refund,income
+813,41,Gift,income
+814,41,Interest,income
+815,41,Credit Card Payment,income
+816,41,Rent,expense
+817,41,Groceries,expense
+818,41,Bills,expense
+819,41,Travel,expense
+820,41,Food,expense
+821,41,Transport,expense
+822,41,Entertainment,expense
+823,41,Healthcare,expense
+824,41,Shopping,expense
+825,41,Savings Contribution,expense
+826,41,Transfer Out,expense
+827,41,Phone,expense
+828,41,Pet Care,expense
+829,42,Salary,income
+830,42,Freelance,income
+831,42,Refund,income
+832,42,Gift,income
+833,42,Interest,income
+834,42,Credit Card Payment,income
+835,42,Rent,expense
+836,42,Groceries,expense
+837,42,Bills,expense
+838,42,Travel,expense
+839,42,Food,expense
+840,42,Transport,expense
+841,42,Entertainment,expense
+842,42,Healthcare,expense
+843,42,Shopping,expense
+844,42,Savings Contribution,expense
+845,42,Transfer Out,expense
+846,42,Phone,expense
+847,42,Clothing,expense
+848,42,Coffee,expense
+849,42,Insurance,expense
+850,43,Salary,income
+851,43,Freelance,income
+852,43,Refund,income
+853,43,Gift,income
+854,43,Interest,income
+855,43,Credit Card Payment,income
+856,43,Rent,expense
+857,43,Groceries,expense
+858,43,Bills,expense
+859,43,Travel,expense
+860,43,Food,expense
+861,43,Transport,expense
+862,43,Entertainment,expense
+863,43,Healthcare,expense
+864,43,Shopping,expense
+865,43,Savings Contribution,expense
+866,43,Transfer Out,expense
+867,43,Pet Care,expense
+868,43,Books,expense
+869,43,Clothing,expense
+870,44,Salary,income
+871,44,Freelance,income
+872,44,Refund,income
+873,44,Gift,income
+874,44,Interest,income
+875,44,Credit Card Payment,income
+876,44,Rent,expense
+877,44,Groceries,expense
+878,44,Bills,expense
+879,44,Travel,expense
+880,44,Food,expense
+881,44,Transport,expense
+882,44,Entertainment,expense
+883,44,Healthcare,expense
+884,44,Shopping,expense
+885,44,Savings Contribution,expense
+886,44,Transfer Out,expense
+887,44,Gym,expense
+888,44,Tuition,expense
+889,45,Salary,income
+890,45,Freelance,income
+891,45,Refund,income
+892,45,Gift,income
+893,45,Interest,income
+894,45,Credit Card Payment,income
+895,45,Rent,expense
+896,45,Groceries,expense
+897,45,Bills,expense
+898,45,Travel,expense
+899,45,Food,expense
+900,45,Transport,expense
+901,45,Entertainment,expense
+902,45,Healthcare,expense
+903,45,Shopping,expense
+904,45,Savings Contribution,expense
+905,45,Transfer Out,expense
+906,45,Clothing,expense
+907,45,Pet Care,expense
+908,46,Salary,income
+909,46,Freelance,income
+910,46,Refund,income
+911,46,Gift,income
+912,46,Interest,income
+913,46,Credit Card Payment,income
+914,46,Rent,expense
+915,46,Groceries,expense
+916,46,Bills,expense
+917,46,Travel,expense
+918,46,Food,expense
+919,46,Transport,expense
+920,46,Entertainment,expense
+921,46,Healthcare,expense
+922,46,Shopping,expense
+923,46,Savings Contribution,expense
+924,46,Transfer Out,expense
+925,46,Dining Out,expense
+926,46,Books,expense
+927,47,Salary,income
+928,47,Freelance,income
+929,47,Refund,income
+930,47,Gift,income
+931,47,Interest,income
+932,47,Credit Card Payment,income
+933,47,Rent,expense
+934,47,Groceries,expense
+935,47,Bills,expense
+936,47,Travel,expense
+937,47,Food,expense
+938,47,Transport,expense
+939,47,Entertainment,expense
+940,47,Healthcare,expense
+941,47,Shopping,expense
+942,47,Savings Contribution,expense
+943,47,Transfer Out,expense
+944,47,Coffee,expense
+945,47,Streaming,expense
+946,47,Books,expense
+947,47,Clothing,expense
+948,48,Salary,income
+949,48,Freelance,income
+950,48,Refund,income
+951,48,Gift,income
+952,48,Interest,income
+953,48,Credit Card Payment,income
+954,48,Rent,expense
+955,48,Groceries,expense
+956,48,Bills,expense
+957,48,Travel,expense
+958,48,Food,expense
+959,48,Transport,expense
+960,48,Entertainment,expense
+961,48,Healthcare,expense
+962,48,Shopping,expense
+963,48,Savings Contribution,expense
+964,48,Transfer Out,expense
+965,48,Streaming,expense
+966,48,Books,expense
+967,48,Gym,expense
+968,48,Coffee,expense
+969,49,Salary,income
+970,49,Freelance,income
+971,49,Refund,income
+972,49,Gift,income
+973,49,Interest,income
+974,49,Credit Card Payment,income
+975,49,Rent,expense
+976,49,Groceries,expense
+977,49,Bills,expense
+978,49,Travel,expense
+979,49,Food,expense
+980,49,Transport,expense
+981,49,Entertainment,expense
+982,49,Healthcare,expense
+983,49,Shopping,expense
+984,49,Savings Contribution,expense
+985,49,Transfer Out,expense
+986,49,Coffee,expense
+987,49,Dining Out,expense
+988,50,Salary,income
+989,50,Freelance,income
+990,50,Refund,income
+991,50,Gift,income
+992,50,Interest,income
+993,50,Credit Card Payment,income
+994,50,Rent,expense
+995,50,Groceries,expense
+996,50,Bills,expense
+997,50,Travel,expense
+998,50,Food,expense
+999,50,Transport,expense
+1000,50,Entertainment,expense
+1001,50,Healthcare,expense
+1002,50,Shopping,expense
+1003,50,Savings Contribution,expense
+1004,50,Transfer Out,expense
+1005,50,Clothing,expense
+1006,50,Dining Out,expense
+1007,51,Salary,income
+1008,51,Freelance,income
+1009,51,Refund,income
+1010,51,Gift,income
+1011,51,Interest,income
+1012,51,Credit Card Payment,income
+1013,51,Rent,expense
+1014,51,Groceries,expense
+1015,51,Bills,expense
+1016,51,Travel,expense
+1017,51,Food,expense
+1018,51,Transport,expense
+1019,51,Entertainment,expense
+1020,51,Healthcare,expense
+1021,51,Shopping,expense
+1022,51,Savings Contribution,expense
+1023,51,Transfer Out,expense
+1024,51,Books,expense
+1025,51,Streaming,expense
+1026,52,Salary,income
+1027,52,Freelance,income
+1028,52,Refund,income
+1029,52,Gift,income
+1030,52,Interest,income
+1031,52,Credit Card Payment,income
+1032,52,Rent,expense
+1033,52,Groceries,expense
+1034,52,Bills,expense
+1035,52,Travel,expense
+1036,52,Food,expense
+1037,52,Transport,expense
+1038,52,Entertainment,expense
+1039,52,Healthcare,expense
+1040,52,Shopping,expense
+1041,52,Savings Contribution,expense
+1042,52,Transfer Out,expense
+1043,52,Books,expense
+1044,52,Home Supplies,expense
+1045,53,Salary,income
+1046,53,Freelance,income
+1047,53,Refund,income
+1048,53,Gift,income
+1049,53,Interest,income
+1050,53,Credit Card Payment,income
+1051,53,Rent,expense
+1052,53,Groceries,expense
+1053,53,Bills,expense
+1054,53,Travel,expense
+1055,53,Food,expense
+1056,53,Transport,expense
+1057,53,Entertainment,expense
+1058,53,Healthcare,expense
+1059,53,Shopping,expense
+1060,53,Savings Contribution,expense
+1061,53,Transfer Out,expense
+1062,53,Gym,expense
+1063,53,Insurance,expense
+1064,53,Car Maintenance,expense
+1065,53,Clothing,expense
+1066,54,Salary,income
+1067,54,Freelance,income
+1068,54,Refund,income
+1069,54,Gift,income
+1070,54,Interest,income
+1071,54,Credit Card Payment,income
+1072,54,Rent,expense
+1073,54,Groceries,expense
+1074,54,Bills,expense
+1075,54,Travel,expense
+1076,54,Food,expense
+1077,54,Transport,expense
+1078,54,Entertainment,expense
+1079,54,Healthcare,expense
+1080,54,Shopping,expense
+1081,54,Savings Contribution,expense
+1082,54,Transfer Out,expense
+1083,54,Tuition,expense
+1084,54,Clothing,expense
+1085,54,Gym,expense
+1086,55,Salary,income
+1087,55,Freelance,income
+1088,55,Refund,income
+1089,55,Gift,income
+1090,55,Interest,income
+1091,55,Credit Card Payment,income
+1092,55,Rent,expense
+1093,55,Groceries,expense
+1094,55,Bills,expense
+1095,55,Travel,expense
+1096,55,Food,expense
+1097,55,Transport,expense
+1098,55,Entertainment,expense
+1099,55,Healthcare,expense
+1100,55,Shopping,expense
+1101,55,Savings Contribution,expense
+1102,55,Transfer Out,expense
+1103,55,Tuition,expense
+1104,55,Pet Care,expense
+1105,55,Clothing,expense
+1106,56,Salary,income
+1107,56,Freelance,income
+1108,56,Refund,income
+1109,56,Gift,income
+1110,56,Interest,income
+1111,56,Credit Card Payment,income
+1112,56,Rent,expense
+1113,56,Groceries,expense
+1114,56,Bills,expense
+1115,56,Travel,expense
+1116,56,Food,expense
+1117,56,Transport,expense
+1118,56,Entertainment,expense
+1119,56,Healthcare,expense
+1120,56,Shopping,expense
+1121,56,Savings Contribution,expense
+1122,56,Transfer Out,expense
+1123,56,Insurance,expense
+1124,56,Phone,expense
+1125,57,Salary,income
+1126,57,Freelance,income
+1127,57,Refund,income
+1128,57,Gift,income
+1129,57,Interest,income
+1130,57,Credit Card Payment,income
+1131,57,Rent,expense
+1132,57,Groceries,expense
+1133,57,Bills,expense
+1134,57,Travel,expense
+1135,57,Food,expense
+1136,57,Transport,expense
+1137,57,Entertainment,expense
+1138,57,Healthcare,expense
+1139,57,Shopping,expense
+1140,57,Savings Contribution,expense
+1141,57,Transfer Out,expense
+1142,57,Streaming,expense
+1143,57,Car Maintenance,expense
+1144,57,Coffee,expense
+1145,57,Clothing,expense
+1146,58,Salary,income
+1147,58,Freelance,income
+1148,58,Refund,income
+1149,58,Gift,income
+1150,58,Interest,income
+1151,58,Credit Card Payment,income
+1152,58,Rent,expense
+1153,58,Groceries,expense
+1154,58,Bills,expense
+1155,58,Travel,expense
+1156,58,Food,expense
+1157,58,Transport,expense
+1158,58,Entertainment,expense
+1159,58,Healthcare,expense
+1160,58,Shopping,expense
+1161,58,Savings Contribution,expense
+1162,58,Transfer Out,expense
+1163,58,Home Supplies,expense
+1164,58,Insurance,expense
+1165,58,Gym,expense
+1166,59,Salary,income
+1167,59,Freelance,income
+1168,59,Refund,income
+1169,59,Gift,income
+1170,59,Interest,income
+1171,59,Credit Card Payment,income
+1172,59,Rent,expense
+1173,59,Groceries,expense
+1174,59,Bills,expense
+1175,59,Travel,expense
+1176,59,Food,expense
+1177,59,Transport,expense
+1178,59,Entertainment,expense
+1179,59,Healthcare,expense
+1180,59,Shopping,expense
+1181,59,Savings Contribution,expense
+1182,59,Transfer Out,expense
+1183,59,Insurance,expense
+1184,59,Car Maintenance,expense
+1185,59,Gym,expense
+1186,60,Salary,income
+1187,60,Freelance,income
+1188,60,Refund,income
+1189,60,Gift,income
+1190,60,Interest,income
+1191,60,Credit Card Payment,income
+1192,60,Rent,expense
+1193,60,Groceries,expense
+1194,60,Bills,expense
+1195,60,Travel,expense
+1196,60,Food,expense
+1197,60,Transport,expense
+1198,60,Entertainment,expense
+1199,60,Healthcare,expense
+1200,60,Shopping,expense
+1201,60,Savings Contribution,expense
+1202,60,Transfer Out,expense
+1203,60,Dining Out,expense
+1204,60,Clothing,expense
+1205,61,Salary,income
+1206,61,Freelance,income
+1207,61,Refund,income
+1208,61,Gift,income
+1209,61,Interest,income
+1210,61,Credit Card Payment,income
+1211,61,Rent,expense
+1212,61,Groceries,expense
+1213,61,Bills,expense
+1214,61,Travel,expense
+1215,61,Food,expense
+1216,61,Transport,expense
+1217,61,Entertainment,expense
+1218,61,Healthcare,expense
+1219,61,Shopping,expense
+1220,61,Savings Contribution,expense
+1221,61,Transfer Out,expense
+1222,61,Gym,expense
+1223,61,Books,expense
+1224,62,Salary,income
+1225,62,Freelance,income
+1226,62,Refund,income
+1227,62,Gift,income
+1228,62,Interest,income
+1229,62,Credit Card Payment,income
+1230,62,Rent,expense
+1231,62,Groceries,expense
+1232,62,Bills,expense
+1233,62,Travel,expense
+1234,62,Food,expense
+1235,62,Transport,expense
+1236,62,Entertainment,expense
+1237,62,Healthcare,expense
+1238,62,Shopping,expense
+1239,62,Savings Contribution,expense
+1240,62,Transfer Out,expense
+1241,62,Clothing,expense
+1242,62,Phone,expense
+1243,62,Insurance,expense
+1244,63,Salary,income
+1245,63,Freelance,income
+1246,63,Refund,income
+1247,63,Gift,income
+1248,63,Interest,income
+1249,63,Credit Card Payment,income
+1250,63,Rent,expense
+1251,63,Groceries,expense
+1252,63,Bills,expense
+1253,63,Travel,expense
+1254,63,Food,expense
+1255,63,Transport,expense
+1256,63,Entertainment,expense
+1257,63,Healthcare,expense
+1258,63,Shopping,expense
+1259,63,Savings Contribution,expense
+1260,63,Transfer Out,expense
+1261,63,Insurance,expense
+1262,63,Dining Out,expense
+1263,63,Home Supplies,expense
+1264,63,Tuition,expense
+1265,64,Salary,income
+1266,64,Freelance,income
+1267,64,Refund,income
+1268,64,Gift,income
+1269,64,Interest,income
+1270,64,Credit Card Payment,income
+1271,64,Rent,expense
+1272,64,Groceries,expense
+1273,64,Bills,expense
+1274,64,Travel,expense
+1275,64,Food,expense
+1276,64,Transport,expense
+1277,64,Entertainment,expense
+1278,64,Healthcare,expense
+1279,64,Shopping,expense
+1280,64,Savings Contribution,expense
+1281,64,Transfer Out,expense
+1282,64,Car Maintenance,expense
+1283,64,Tuition,expense
+1284,64,Clothing,expense
+1285,65,Salary,income
+1286,65,Freelance,income
+1287,65,Refund,income
+1288,65,Gift,income
+1289,65,Interest,income
+1290,65,Credit Card Payment,income
+1291,65,Rent,expense
+1292,65,Groceries,expense
+1293,65,Bills,expense
+1294,65,Travel,expense
+1295,65,Food,expense
+1296,65,Transport,expense
+1297,65,Entertainment,expense
+1298,65,Healthcare,expense
+1299,65,Shopping,expense
+1300,65,Savings Contribution,expense
+1301,65,Transfer Out,expense
+1302,65,Gym,expense
+1303,65,Insurance,expense
+1304,65,Tuition,expense
+1305,66,Salary,income
+1306,66,Freelance,income
+1307,66,Refund,income
+1308,66,Gift,income
+1309,66,Interest,income
+1310,66,Credit Card Payment,income
+1311,66,Rent,expense
+1312,66,Groceries,expense
+1313,66,Bills,expense
+1314,66,Travel,expense
+1315,66,Food,expense
+1316,66,Transport,expense
+1317,66,Entertainment,expense
+1318,66,Healthcare,expense
+1319,66,Shopping,expense
+1320,66,Savings Contribution,expense
+1321,66,Transfer Out,expense
+1322,66,Pet Care,expense
+1323,66,Home Supplies,expense
+1324,66,Car Maintenance,expense
+1325,66,Insurance,expense
+1326,67,Salary,income
+1327,67,Freelance,income
+1328,67,Refund,income
+1329,67,Gift,income
+1330,67,Interest,income
+1331,67,Credit Card Payment,income
+1332,67,Rent,expense
+1333,67,Groceries,expense
+1334,67,Bills,expense
+1335,67,Travel,expense
+1336,67,Food,expense
+1337,67,Transport,expense
+1338,67,Entertainment,expense
+1339,67,Healthcare,expense
+1340,67,Shopping,expense
+1341,67,Savings Contribution,expense
+1342,67,Transfer Out,expense
+1343,67,Dining Out,expense
+1344,67,Car Maintenance,expense
+1345,67,Home Supplies,expense
+1346,68,Salary,income
+1347,68,Freelance,income
+1348,68,Refund,income
+1349,68,Gift,income
+1350,68,Interest,income
+1351,68,Credit Card Payment,income
+1352,68,Rent,expense
+1353,68,Groceries,expense
+1354,68,Bills,expense
+1355,68,Travel,expense
+1356,68,Food,expense
+1357,68,Transport,expense
+1358,68,Entertainment,expense
+1359,68,Healthcare,expense
+1360,68,Shopping,expense
+1361,68,Savings Contribution,expense
+1362,68,Transfer Out,expense
+1363,68,Insurance,expense
+1364,68,Gym,expense
+1365,68,Dining Out,expense
+1366,69,Salary,income
+1367,69,Freelance,income
+1368,69,Refund,income
+1369,69,Gift,income
+1370,69,Interest,income
+1371,69,Credit Card Payment,income
+1372,69,Rent,expense
+1373,69,Groceries,expense
+1374,69,Bills,expense
+1375,69,Travel,expense
+1376,69,Food,expense
+1377,69,Transport,expense
+1378,69,Entertainment,expense
+1379,69,Healthcare,expense
+1380,69,Shopping,expense
+1381,69,Savings Contribution,expense
+1382,69,Transfer Out,expense
+1383,69,Dining Out,expense
+1384,69,Phone,expense
+1385,69,Streaming,expense
+1386,70,Salary,income
+1387,70,Freelance,income
+1388,70,Refund,income
+1389,70,Gift,income
+1390,70,Interest,income
+1391,70,Credit Card Payment,income
+1392,70,Rent,expense
+1393,70,Groceries,expense
+1394,70,Bills,expense
+1395,70,Travel,expense
+1396,70,Food,expense
+1397,70,Transport,expense
+1398,70,Entertainment,expense
+1399,70,Healthcare,expense
+1400,70,Shopping,expense
+1401,70,Savings Contribution,expense
+1402,70,Transfer Out,expense
+1403,70,Books,expense
+1404,70,Phone,expense
+1405,70,Car Maintenance,expense
+1406,71,Salary,income
+1407,71,Freelance,income
+1408,71,Refund,income
+1409,71,Gift,income
+1410,71,Interest,income
+1411,71,Credit Card Payment,income
+1412,71,Rent,expense
+1413,71,Groceries,expense
+1414,71,Bills,expense
+1415,71,Travel,expense
+1416,71,Food,expense
+1417,71,Transport,expense
+1418,71,Entertainment,expense
+1419,71,Healthcare,expense
+1420,71,Shopping,expense
+1421,71,Savings Contribution,expense
+1422,71,Transfer Out,expense
+1423,71,Gym,expense
+1424,71,Insurance,expense
+1425,72,Salary,income
+1426,72,Freelance,income
+1427,72,Refund,income
+1428,72,Gift,income
+1429,72,Interest,income
+1430,72,Credit Card Payment,income
+1431,72,Rent,expense
+1432,72,Groceries,expense
+1433,72,Bills,expense
+1434,72,Travel,expense
+1435,72,Food,expense
+1436,72,Transport,expense
+1437,72,Entertainment,expense
+1438,72,Healthcare,expense
+1439,72,Shopping,expense
+1440,72,Savings Contribution,expense
+1441,72,Transfer Out,expense
+1442,72,Home Supplies,expense
+1443,72,Gym,expense
+1444,73,Salary,income
+1445,73,Freelance,income
+1446,73,Refund,income
+1447,73,Gift,income
+1448,73,Interest,income
+1449,73,Credit Card Payment,income
+1450,73,Rent,expense
+1451,73,Groceries,expense
+1452,73,Bills,expense
+1453,73,Travel,expense
+1454,73,Food,expense
+1455,73,Transport,expense
+1456,73,Entertainment,expense
+1457,73,Healthcare,expense
+1458,73,Shopping,expense
+1459,73,Savings Contribution,expense
+1460,73,Transfer Out,expense
+1461,73,Insurance,expense
+1462,73,Dining Out,expense
+1463,73,Books,expense
+1464,73,Tuition,expense
+1465,74,Salary,income
+1466,74,Freelance,income
+1467,74,Refund,income
+1468,74,Gift,income
+1469,74,Interest,income
+1470,74,Credit Card Payment,income
+1471,74,Rent,expense
+1472,74,Groceries,expense
+1473,74,Bills,expense
+1474,74,Travel,expense
+1475,74,Food,expense
+1476,74,Transport,expense
+1477,74,Entertainment,expense
+1478,74,Healthcare,expense
+1479,74,Shopping,expense
+1480,74,Savings Contribution,expense
+1481,74,Transfer Out,expense
+1482,74,Clothing,expense
+1483,74,Tuition,expense
+1484,75,Salary,income
+1485,75,Freelance,income
+1486,75,Refund,income
+1487,75,Gift,income
+1488,75,Interest,income
+1489,75,Credit Card Payment,income
+1490,75,Rent,expense
+1491,75,Groceries,expense
+1492,75,Bills,expense
+1493,75,Travel,expense
+1494,75,Food,expense
+1495,75,Transport,expense
+1496,75,Entertainment,expense
+1497,75,Healthcare,expense
+1498,75,Shopping,expense
+1499,75,Savings Contribution,expense
+1500,75,Transfer Out,expense
+1501,75,Dining Out,expense
+1502,75,Phone,expense
+1503,75,Gym,expense
+1504,75,Home Supplies,expense
+1505,76,Salary,income
+1506,76,Freelance,income
+1507,76,Refund,income
+1508,76,Gift,income
+1509,76,Interest,income
+1510,76,Credit Card Payment,income
+1511,76,Rent,expense
+1512,76,Groceries,expense
+1513,76,Bills,expense
+1514,76,Travel,expense
+1515,76,Food,expense
+1516,76,Transport,expense
+1517,76,Entertainment,expense
+1518,76,Healthcare,expense
+1519,76,Shopping,expense
+1520,76,Savings Contribution,expense
+1521,76,Transfer Out,expense
+1522,76,Phone,expense
+1523,76,Home Supplies,expense
+1524,76,Coffee,expense
+1525,77,Salary,income
+1526,77,Freelance,income
+1527,77,Refund,income
+1528,77,Gift,income
+1529,77,Interest,income
+1530,77,Credit Card Payment,income
+1531,77,Rent,expense
+1532,77,Groceries,expense
+1533,77,Bills,expense
+1534,77,Travel,expense
+1535,77,Food,expense
+1536,77,Transport,expense
+1537,77,Entertainment,expense
+1538,77,Healthcare,expense
+1539,77,Shopping,expense
+1540,77,Savings Contribution,expense
+1541,77,Transfer Out,expense
+1542,77,Clothing,expense
+1543,77,Streaming,expense
+1544,77,Dining Out,expense
+1545,78,Salary,income
+1546,78,Freelance,income
+1547,78,Refund,income
+1548,78,Gift,income
+1549,78,Interest,income
+1550,78,Credit Card Payment,income
+1551,78,Rent,expense
+1552,78,Groceries,expense
+1553,78,Bills,expense
+1554,78,Travel,expense
+1555,78,Food,expense
+1556,78,Transport,expense
+1557,78,Entertainment,expense
+1558,78,Healthcare,expense
+1559,78,Shopping,expense
+1560,78,Savings Contribution,expense
+1561,78,Transfer Out,expense
+1562,78,Clothing,expense
+1563,78,Tuition,expense
+1564,79,Salary,income
+1565,79,Freelance,income
+1566,79,Refund,income
+1567,79,Gift,income
+1568,79,Interest,income
+1569,79,Credit Card Payment,income
+1570,79,Rent,expense
+1571,79,Groceries,expense
+1572,79,Bills,expense
+1573,79,Travel,expense
+1574,79,Food,expense
+1575,79,Transport,expense
+1576,79,Entertainment,expense
+1577,79,Healthcare,expense
+1578,79,Shopping,expense
+1579,79,Savings Contribution,expense
+1580,79,Transfer Out,expense
+1581,79,Books,expense
+1582,79,Phone,expense
+1583,80,Salary,income
+1584,80,Freelance,income
+1585,80,Refund,income
+1586,80,Gift,income
+1587,80,Interest,income
+1588,80,Credit Card Payment,income
+1589,80,Rent,expense
+1590,80,Groceries,expense
+1591,80,Bills,expense
+1592,80,Travel,expense
+1593,80,Food,expense
+1594,80,Transport,expense
+1595,80,Entertainment,expense
+1596,80,Healthcare,expense
+1597,80,Shopping,expense
+1598,80,Savings Contribution,expense
+1599,80,Transfer Out,expense
+1600,80,Pet Care,expense
+1601,80,Gym,expense
+1602,80,Dining Out,expense
+1603,81,Salary,income
+1604,81,Freelance,income
+1605,81,Refund,income
+1606,81,Gift,income
+1607,81,Interest,income
+1608,81,Credit Card Payment,income
+1609,81,Rent,expense
+1610,81,Groceries,expense
+1611,81,Bills,expense
+1612,81,Travel,expense
+1613,81,Food,expense
+1614,81,Transport,expense
+1615,81,Entertainment,expense
+1616,81,Healthcare,expense
+1617,81,Shopping,expense
+1618,81,Savings Contribution,expense
+1619,81,Transfer Out,expense
+1620,81,Dining Out,expense
+1621,81,Gym,expense
+1622,81,Streaming,expense
+1623,81,Pet Care,expense
+1624,82,Salary,income
+1625,82,Freelance,income
+1626,82,Refund,income
+1627,82,Gift,income
+1628,82,Interest,income
+1629,82,Credit Card Payment,income
+1630,82,Rent,expense
+1631,82,Groceries,expense
+1632,82,Bills,expense
+1633,82,Travel,expense
+1634,82,Food,expense
+1635,82,Transport,expense
+1636,82,Entertainment,expense
+1637,82,Healthcare,expense
+1638,82,Shopping,expense
+1639,82,Savings Contribution,expense
+1640,82,Transfer Out,expense
+1641,82,Tuition,expense
+1642,82,Clothing,expense
+1643,82,Phone,expense
+1644,83,Salary,income
+1645,83,Freelance,income
+1646,83,Refund,income
+1647,83,Gift,income
+1648,83,Interest,income
+1649,83,Credit Card Payment,income
+1650,83,Rent,expense
+1651,83,Groceries,expense
+1652,83,Bills,expense
+1653,83,Travel,expense
+1654,83,Food,expense
+1655,83,Transport,expense
+1656,83,Entertainment,expense
+1657,83,Healthcare,expense
+1658,83,Shopping,expense
+1659,83,Savings Contribution,expense
+1660,83,Transfer Out,expense
+1661,83,Phone,expense
+1662,83,Tuition,expense
+1663,83,Coffee,expense
+1664,83,Streaming,expense
+1665,84,Salary,income
+1666,84,Freelance,income
+1667,84,Refund,income
+1668,84,Gift,income
+1669,84,Interest,income
+1670,84,Credit Card Payment,income
+1671,84,Rent,expense
+1672,84,Groceries,expense
+1673,84,Bills,expense
+1674,84,Travel,expense
+1675,84,Food,expense
+1676,84,Transport,expense
+1677,84,Entertainment,expense
+1678,84,Healthcare,expense
+1679,84,Shopping,expense
+1680,84,Savings Contribution,expense
+1681,84,Transfer Out,expense
+1682,84,Books,expense
+1683,84,Streaming,expense
+1684,85,Salary,income
+1685,85,Freelance,income
+1686,85,Refund,income
+1687,85,Gift,income
+1688,85,Interest,income
+1689,85,Credit Card Payment,income
+1690,85,Rent,expense
+1691,85,Groceries,expense
+1692,85,Bills,expense
+1693,85,Travel,expense
+1694,85,Food,expense
+1695,85,Transport,expense
+1696,85,Entertainment,expense
+1697,85,Healthcare,expense
+1698,85,Shopping,expense
+1699,85,Savings Contribution,expense
+1700,85,Transfer Out,expense
+1701,85,Streaming,expense
+1702,85,Dining Out,expense
+1703,85,Phone,expense
+1704,85,Coffee,expense
+1705,86,Salary,income
+1706,86,Freelance,income
+1707,86,Refund,income
+1708,86,Gift,income
+1709,86,Interest,income
+1710,86,Credit Card Payment,income
+1711,86,Rent,expense
+1712,86,Groceries,expense
+1713,86,Bills,expense
+1714,86,Travel,expense
+1715,86,Food,expense
+1716,86,Transport,expense
+1717,86,Entertainment,expense
+1718,86,Healthcare,expense
+1719,86,Shopping,expense
+1720,86,Savings Contribution,expense
+1721,86,Transfer Out,expense
+1722,86,Books,expense
+1723,86,Clothing,expense
+1724,87,Salary,income
+1725,87,Freelance,income
+1726,87,Refund,income
+1727,87,Gift,income
+1728,87,Interest,income
+1729,87,Credit Card Payment,income
+1730,87,Rent,expense
+1731,87,Groceries,expense
+1732,87,Bills,expense
+1733,87,Travel,expense
+1734,87,Food,expense
+1735,87,Transport,expense
+1736,87,Entertainment,expense
+1737,87,Healthcare,expense
+1738,87,Shopping,expense
+1739,87,Savings Contribution,expense
+1740,87,Transfer Out,expense
+1741,87,Home Supplies,expense
+1742,87,Gym,expense
+1743,87,Books,expense
+1744,87,Coffee,expense
+1745,88,Salary,income
+1746,88,Freelance,income
+1747,88,Refund,income
+1748,88,Gift,income
+1749,88,Interest,income
+1750,88,Credit Card Payment,income
+1751,88,Rent,expense
+1752,88,Groceries,expense
+1753,88,Bills,expense
+1754,88,Travel,expense
+1755,88,Food,expense
+1756,88,Transport,expense
+1757,88,Entertainment,expense
+1758,88,Healthcare,expense
+1759,88,Shopping,expense
+1760,88,Savings Contribution,expense
+1761,88,Transfer Out,expense
+1762,88,Insurance,expense
+1763,88,Tuition,expense
+1764,89,Salary,income
+1765,89,Freelance,income
+1766,89,Refund,income
+1767,89,Gift,income
+1768,89,Interest,income
+1769,89,Credit Card Payment,income
+1770,89,Rent,expense
+1771,89,Groceries,expense
+1772,89,Bills,expense
+1773,89,Travel,expense
+1774,89,Food,expense
+1775,89,Transport,expense
+1776,89,Entertainment,expense
+1777,89,Healthcare,expense
+1778,89,Shopping,expense
+1779,89,Savings Contribution,expense
+1780,89,Transfer Out,expense
+1781,89,Home Supplies,expense
+1782,89,Insurance,expense
+1783,90,Salary,income
+1784,90,Freelance,income
+1785,90,Refund,income
+1786,90,Gift,income
+1787,90,Interest,income
+1788,90,Credit Card Payment,income
+1789,90,Rent,expense
+1790,90,Groceries,expense
+1791,90,Bills,expense
+1792,90,Travel,expense
+1793,90,Food,expense
+1794,90,Transport,expense
+1795,90,Entertainment,expense
+1796,90,Healthcare,expense
+1797,90,Shopping,expense
+1798,90,Savings Contribution,expense
+1799,90,Transfer Out,expense
+1800,90,Dining Out,expense
+1801,90,Books,expense
+1802,90,Insurance,expense
+1803,91,Salary,income
+1804,91,Freelance,income
+1805,91,Refund,income
+1806,91,Gift,income
+1807,91,Interest,income
+1808,91,Credit Card Payment,income
+1809,91,Rent,expense
+1810,91,Groceries,expense
+1811,91,Bills,expense
+1812,91,Travel,expense
+1813,91,Food,expense
+1814,91,Transport,expense
+1815,91,Entertainment,expense
+1816,91,Healthcare,expense
+1817,91,Shopping,expense
+1818,91,Savings Contribution,expense
+1819,91,Transfer Out,expense
+1820,91,Insurance,expense
+1821,91,Dining Out,expense
+1822,91,Clothing,expense
+1823,92,Salary,income
+1824,92,Freelance,income
+1825,92,Refund,income
+1826,92,Gift,income
+1827,92,Interest,income
+1828,92,Credit Card Payment,income
+1829,92,Rent,expense
+1830,92,Groceries,expense
+1831,92,Bills,expense
+1832,92,Travel,expense
+1833,92,Food,expense
+1834,92,Transport,expense
+1835,92,Entertainment,expense
+1836,92,Healthcare,expense
+1837,92,Shopping,expense
+1838,92,Savings Contribution,expense
+1839,92,Transfer Out,expense
+1840,92,Gym,expense
+1841,92,Coffee,expense
+1842,92,Books,expense
+1843,92,Clothing,expense
+1844,93,Salary,income
+1845,93,Freelance,income
+1846,93,Refund,income
+1847,93,Gift,income
+1848,93,Interest,income
+1849,93,Credit Card Payment,income
+1850,93,Rent,expense
+1851,93,Groceries,expense
+1852,93,Bills,expense
+1853,93,Travel,expense
+1854,93,Food,expense
+1855,93,Transport,expense
+1856,93,Entertainment,expense
+1857,93,Healthcare,expense
+1858,93,Shopping,expense
+1859,93,Savings Contribution,expense
+1860,93,Transfer Out,expense
+1861,93,Coffee,expense
+1862,93,Phone,expense
+1863,93,Gym,expense
+1864,93,Streaming,expense
+1865,94,Salary,income
+1866,94,Freelance,income
+1867,94,Refund,income
+1868,94,Gift,income
+1869,94,Interest,income
+1870,94,Credit Card Payment,income
+1871,94,Rent,expense
+1872,94,Groceries,expense
+1873,94,Bills,expense
+1874,94,Travel,expense
+1875,94,Food,expense
+1876,94,Transport,expense
+1877,94,Entertainment,expense
+1878,94,Healthcare,expense
+1879,94,Shopping,expense
+1880,94,Savings Contribution,expense
+1881,94,Transfer Out,expense
+1882,94,Phone,expense
+1883,94,Home Supplies,expense
+1884,94,Car Maintenance,expense
+1885,95,Salary,income
+1886,95,Freelance,income
+1887,95,Refund,income
+1888,95,Gift,income
+1889,95,Interest,income
+1890,95,Credit Card Payment,income
+1891,95,Rent,expense
+1892,95,Groceries,expense
+1893,95,Bills,expense
+1894,95,Travel,expense
+1895,95,Food,expense
+1896,95,Transport,expense
+1897,95,Entertainment,expense
+1898,95,Healthcare,expense
+1899,95,Shopping,expense
+1900,95,Savings Contribution,expense
+1901,95,Transfer Out,expense
+1902,95,Car Maintenance,expense
+1903,95,Home Supplies,expense
+1904,95,Streaming,expense
+1905,95,Pet Care,expense
+1906,96,Salary,income
+1907,96,Freelance,income
+1908,96,Refund,income
+1909,96,Gift,income
+1910,96,Interest,income
+1911,96,Credit Card Payment,income
+1912,96,Rent,expense
+1913,96,Groceries,expense
+1914,96,Bills,expense
+1915,96,Travel,expense
+1916,96,Food,expense
+1917,96,Transport,expense
+1918,96,Entertainment,expense
+1919,96,Healthcare,expense
+1920,96,Shopping,expense
+1921,96,Savings Contribution,expense
+1922,96,Transfer Out,expense
+1923,96,Gym,expense
+1924,96,Dining Out,expense
+1925,96,Home Supplies,expense
+1926,96,Insurance,expense
+1927,97,Salary,income
+1928,97,Freelance,income
+1929,97,Refund,income
+1930,97,Gift,income
+1931,97,Interest,income
+1932,97,Credit Card Payment,income
+1933,97,Rent,expense
+1934,97,Groceries,expense
+1935,97,Bills,expense
+1936,97,Travel,expense
+1937,97,Food,expense
+1938,97,Transport,expense
+1939,97,Entertainment,expense
+1940,97,Healthcare,expense
+1941,97,Shopping,expense
+1942,97,Savings Contribution,expense
+1943,97,Transfer Out,expense
+1944,97,Phone,expense
+1945,97,Insurance,expense
+1946,97,Clothing,expense
+1947,98,Salary,income
+1948,98,Freelance,income
+1949,98,Refund,income
+1950,98,Gift,income
+1951,98,Interest,income
+1952,98,Credit Card Payment,income
+1953,98,Rent,expense
+1954,98,Groceries,expense
+1955,98,Bills,expense
+1956,98,Travel,expense
+1957,98,Food,expense
+1958,98,Transport,expense
+1959,98,Entertainment,expense
+1960,98,Healthcare,expense
+1961,98,Shopping,expense
+1962,98,Savings Contribution,expense
+1963,98,Transfer Out,expense
+1964,98,Tuition,expense
+1965,98,Phone,expense
+1966,98,Streaming,expense
+1967,99,Salary,income
+1968,99,Freelance,income
+1969,99,Refund,income
+1970,99,Gift,income
+1971,99,Interest,income
+1972,99,Credit Card Payment,income
+1973,99,Rent,expense
+1974,99,Groceries,expense
+1975,99,Bills,expense
+1976,99,Travel,expense
+1977,99,Food,expense
+1978,99,Transport,expense
+1979,99,Entertainment,expense
+1980,99,Healthcare,expense
+1981,99,Shopping,expense
+1982,99,Savings Contribution,expense
+1983,99,Transfer Out,expense
+1984,99,Pet Care,expense
+1985,99,Home Supplies,expense
+1986,100,Salary,income
+1987,100,Freelance,income
+1988,100,Refund,income
+1989,100,Gift,income
+1990,100,Interest,income
+1991,100,Credit Card Payment,income
+1992,100,Rent,expense
+1993,100,Groceries,expense
+1994,100,Bills,expense
+1995,100,Travel,expense
+1996,100,Food,expense
+1997,100,Transport,expense
+1998,100,Entertainment,expense
+1999,100,Healthcare,expense
+2000,100,Shopping,expense
+2001,100,Savings Contribution,expense
+2002,100,Transfer Out,expense
+2003,100,Coffee,expense
+2004,100,Insurance,expense
+2005,100,Pet Care,expense
+2006,100,Streaming,expense

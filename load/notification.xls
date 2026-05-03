@@ -1,0 +1,347 @@
+notification_id,user_id,account_id,goal_id,message,notification_type,created_at,is_read
+1,6,14,,Warning: Your Checking Account 1 balance is low ($119.38).,Low Balance,2026-03-12 06:08:39,False
+2,8,19,,Warning: Your Checking Account 1 balance is low ($144.64).,Low Balance,2026-03-20 09:54:32,False
+3,12,32,,Warning: Your Checking Account 1 balance is low ($156.86).,Low Balance,2026-03-07 21:42:08,True
+4,18,49,,Warning: Your Checking Account 1 balance is low ($131.46).,Low Balance,2026-03-23 02:54:15,True
+5,38,111,,Warning: Your Checking Account 1 balance is low ($-156.19).,Low Balance,2026-03-28 12:53:20,True
+6,42,123,,Warning: Your Checking Account 1 balance is low ($195.72).,Low Balance,2026-03-07 05:15:38,False
+7,48,140,,Warning: Your Checking Account 1 balance is low ($112.48).,Low Balance,2026-03-30 19:04:52,True
+8,49,144,,Warning: Your Checking Account 1 balance is low ($168.49).,Low Balance,2026-03-22 17:24:24,False
+9,50,146,,Warning: Your Checking Account 1 balance is low ($136.85).,Low Balance,2026-03-29 21:48:07,True
+10,52,155,,Warning: Your Checking Account 2 balance is low ($168.19).,Low Balance,2026-03-11 02:47:24,False
+11,59,173,,Warning: Your Checking Account 1 balance is low ($21.97).,Low Balance,2026-03-27 22:49:42,False
+12,60,177,,Warning: Your Checking Account 1 balance is low ($74.84).,Low Balance,2026-03-30 13:51:21,True
+13,65,193,,Warning: Your Checking Account 1 balance is low ($107.25).,Low Balance,2026-03-07 19:26:49,False
+14,77,231,,Warning: Your Checking Account 1 balance is low ($70.16).,Low Balance,2026-03-30 19:30:35,True
+15,86,258,,Warning: Your Checking Account 1 balance is low ($179.37).,Low Balance,2026-03-14 18:01:03,True
+16,90,272,,Warning: Your Checking Account 1 balance is low ($-469.54).,Low Balance,2026-03-01 09:29:00,True
+17,93,281,,Warning: Your Checking Account 1 balance is low ($37.87).,Low Balance,2026-03-06 05:26:02,True
+18,1,,,Budget alert: You have exceeded your monthly budget for Rent.,Budget Exceeded,2026-03-27 16:32:49,False
+19,5,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-28 21:12:58,True
+20,8,,,Budget alert: You have exceeded your monthly budget for Insurance.,Budget Exceeded,2026-03-07 22:17:39,False
+21,10,,,Budget alert: You have exceeded your monthly budget for Savings Contribution.,Budget Exceeded,2026-03-08 03:56:56,True
+22,14,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-31 11:13:35,True
+23,20,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-04 05:39:45,True
+24,28,,,Budget alert: You have exceeded your monthly budget for Healthcare.,Budget Exceeded,2026-03-10 23:17:10,True
+25,28,,,Budget alert: You have exceeded your monthly budget for Pet Care.,Budget Exceeded,2026-03-08 23:26:07,False
+26,29,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-02 02:01:42,False
+27,36,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-05 23:53:35,True
+28,39,,,Budget alert: You have exceeded your monthly budget for Rent.,Budget Exceeded,2026-03-23 17:10:04,True
+29,42,,,Budget alert: You have exceeded your monthly budget for Shopping.,Budget Exceeded,2026-03-28 23:52:40,True
+30,42,,,Budget alert: You have exceeded your monthly budget for Rent.,Budget Exceeded,2026-03-02 03:23:48,True
+31,43,,,Budget alert: You have exceeded your monthly budget for Healthcare.,Budget Exceeded,2026-03-01 13:03:54,False
+32,52,,,Budget alert: You have exceeded your monthly budget for Savings Contribution.,Budget Exceeded,2026-03-26 16:19:36,False
+33,53,,,Budget alert: You have exceeded your monthly budget for Entertainment.,Budget Exceeded,2026-03-22 00:18:43,True
+34,55,,,Budget alert: You have exceeded your monthly budget for Entertainment.,Budget Exceeded,2026-03-23 01:37:28,False
+35,55,,,Budget alert: You have exceeded your monthly budget for Pet Care.,Budget Exceeded,2026-03-27 21:25:54,False
+36,59,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-22 07:06:02,True
+37,63,,,Budget alert: You have exceeded your monthly budget for Entertainment.,Budget Exceeded,2026-03-20 09:21:12,True
+38,64,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-20 23:54:50,False
+39,64,,,Budget alert: You have exceeded your monthly budget for Shopping.,Budget Exceeded,2026-03-05 04:58:13,False
+40,67,,,Budget alert: You have exceeded your monthly budget for Entertainment.,Budget Exceeded,2026-03-11 23:51:15,True
+41,68,,,Budget alert: You have exceeded your monthly budget for Shopping.,Budget Exceeded,2026-03-16 02:16:56,False
+42,72,,,Budget alert: You have exceeded your monthly budget for Savings Contribution.,Budget Exceeded,2026-03-25 22:11:41,False
+43,74,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-01 15:24:51,True
+44,77,,,Budget alert: You have exceeded your monthly budget for Savings Contribution.,Budget Exceeded,2026-03-07 07:52:08,False
+45,81,,,Budget alert: You have exceeded your monthly budget for Rent.,Budget Exceeded,2026-03-30 11:02:37,False
+46,82,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-30 09:52:56,False
+47,87,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-17 07:05:31,False
+48,88,,,Budget alert: You have exceeded your monthly budget for Shopping.,Budget Exceeded,2026-03-24 18:56:54,True
+49,89,,,Budget alert: You have exceeded your monthly budget for Shopping.,Budget Exceeded,2026-03-14 00:51:04,False
+50,90,,,Budget alert: You have exceeded your monthly budget for Savings Contribution.,Budget Exceeded,2026-03-03 13:45:32,False
+51,91,,,Budget alert: You have exceeded your monthly budget for Clothing.,Budget Exceeded,2026-03-31 23:50:52,False
+52,98,,,Budget alert: You have exceeded your monthly budget for Savings Contribution.,Budget Exceeded,2026-03-08 23:01:59,False
+53,99,,,Budget alert: You have exceeded your monthly budget for Travel.,Budget Exceeded,2026-03-07 14:10:09,False
+54,1,,1,Congratulations! You reached your goal: Tuition Savings.,Goal Completed,2026-03-16 11:34:16,True
+55,1,,3,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-13 06:38:07,False
+56,2,,5,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-27 01:06:52,True
+57,3,,6,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-26 16:39:35,True
+58,4,,8,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-01 04:36:20,False
+59,4,,9,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-18 16:08:11,True
+60,6,,13,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-30 07:43:54,False
+61,8,,19,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-17 13:08:13,False
+62,8,,20,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-28 04:42:08,True
+63,8,,21,Nice progress! You are close to reaching your goal: Tuition Savings.,Goal Progress,2026-03-27 09:58:48,True
+64,9,,22,Congratulations! You reached your goal: Wedding Fund.,Goal Completed,2026-03-05 13:19:04,True
+65,9,,23,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-04 08:40:17,True
+66,9,,24,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-07 00:23:24,False
+67,11,,29,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-26 10:48:28,False
+68,13,,36,Nice progress! You are close to reaching your goal: Emergency Fund.,Goal Progress,2026-03-14 00:46:48,False
+69,15,,44,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-04 20:40:09,False
+70,16,,45,Congratulations! You reached your goal: Wedding Fund.,Goal Completed,2026-03-04 15:16:15,False
+71,17,,47,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-06 03:01:34,False
+72,18,,49,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-08 19:34:53,True
+73,18,,50,Congratulations! You reached your goal: Emergency Fund.,Goal Completed,2026-03-23 18:01:15,True
+74,20,,57,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-14 19:26:16,False
+75,21,,59,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-14 16:00:49,True
+76,21,,61,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-27 12:42:55,False
+77,22,,64,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-10 23:35:22,True
+78,24,,69,Nice progress! You are close to reaching your goal: Tuition Savings.,Goal Progress,2026-03-21 20:06:28,False
+79,25,,71,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-22 22:44:27,True
+80,25,,72,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-05 08:31:51,False
+81,26,,74,Nice progress! You are close to reaching your goal: Emergency Fund.,Goal Progress,2026-03-30 20:35:20,False
+82,27,,76,Congratulations! You reached your goal: Tuition Savings.,Goal Completed,2026-03-13 13:19:50,False
+83,29,,80,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-19 05:58:27,False
+84,30,,82,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-20 21:57:40,True
+85,31,,85,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-06 17:10:30,False
+86,32,,88,Nice progress! You are close to reaching your goal: Tuition Savings.,Goal Progress,2026-03-23 09:26:39,False
+87,33,,90,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-23 17:11:21,False
+88,34,,94,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-26 10:29:24,True
+89,36,,101,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-10 09:51:28,True
+90,39,,109,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-02 01:06:12,False
+91,40,,111,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-22 12:32:15,False
+92,41,,115,Nice progress! You are close to reaching your goal: Emergency Fund.,Goal Progress,2026-03-30 05:46:47,True
+93,42,,117,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-08 15:08:43,False
+94,43,,121,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-06 01:18:26,False
+95,47,,132,Congratulations! You reached your goal: New Laptop.,Goal Completed,2026-03-08 10:10:04,False
+96,47,,134,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-21 01:21:51,False
+97,48,,135,Nice progress! You are close to reaching your goal: Emergency Fund.,Goal Progress,2026-03-05 12:50:31,False
+98,50,,143,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-19 17:12:56,True
+99,51,,144,Nice progress! You are close to reaching your goal: Emergency Fund.,Goal Progress,2026-03-26 01:09:46,True
+100,51,,146,Nice progress! You are close to reaching your goal: Tuition Savings.,Goal Progress,2026-03-07 01:17:12,True
+101,53,,150,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-02 15:29:36,True
+102,54,,152,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-24 00:40:05,True
+103,54,,154,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-30 02:53:23,True
+104,55,,156,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-06 07:32:34,False
+105,56,,158,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-02 18:39:21,False
+106,57,,160,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-11 00:59:51,False
+107,58,,163,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-27 05:31:07,True
+108,58,,165,Congratulations! You reached your goal: New Laptop.,Goal Completed,2026-03-02 12:12:04,False
+109,59,,168,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-10 08:47:34,True
+110,62,,175,Nice progress! You are close to reaching your goal: Emergency Fund.,Goal Progress,2026-03-14 12:28:57,False
+111,63,,177,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-09 22:27:08,True
+112,64,,179,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-22 22:26:20,True
+113,65,,182,Nice progress! You are close to reaching your goal: Home Deposit.,Goal Progress,2026-03-13 11:05:08,False
+114,65,,183,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-11 08:58:30,True
+115,65,,184,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-16 01:17:10,True
+116,67,,190,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-26 09:07:23,True
+117,68,,192,Nice progress! You are close to reaching your goal: New Laptop.,Goal Progress,2026-03-08 17:28:28,False
+118,68,,194,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-26 01:49:01,True
+119,70,,197,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-19 16:21:17,False
+120,70,,198,Nice progress! You are close to reaching your goal: Emergency Fund.,Goal Progress,2026-03-02 13:40:38,True
+121,71,,201,Congratulations! You reached your goal: Vacation Fund.,Goal Completed,2026-03-26 10:40:30,False
+122,71,,202,Congratulations! You reached your goal: Car Down Payment.,Goal Completed,2026-03-08 21:13:32,True
+123,72,,203,Congratulations! You reached your goal: Home Deposit.,Goal Completed,2026-03-06 06:56:20,False
+124,73,,206,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-31 20:12:41,True
+125,74,,210,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-14 01:25:09,True
+126,76,,216,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-07 15:26:03,True
+127,78,,223,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-21 01:40:31,True
+128,80,,228,Congratulations! You reached your goal: Tuition Savings.,Goal Completed,2026-03-15 07:30:15,False
+129,82,,232,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-14 17:02:15,True
+130,83,,234,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-14 19:41:28,False
+131,85,,238,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-01 14:45:38,True
+132,85,,239,Congratulations! You reached your goal: Car Down Payment.,Goal Completed,2026-03-09 12:41:27,True
+133,87,,243,Nice progress! You are close to reaching your goal: Car Down Payment.,Goal Progress,2026-03-02 10:21:37,True
+134,88,,246,Nice progress! You are close to reaching your goal: Tuition Savings.,Goal Progress,2026-03-24 02:37:37,False
+135,88,,247,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-19 06:17:17,True
+136,89,,248,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-21 20:24:05,False
+137,89,,249,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-20 01:11:50,False
+138,92,,256,Nice progress! You are close to reaching your goal: Tuition Savings.,Goal Progress,2026-03-20 22:35:56,True
+139,92,,258,Nice progress! You are close to reaching your goal: Wedding Fund.,Goal Progress,2026-03-14 20:11:08,False
+140,93,,261,Nice progress! You are close to reaching your goal: Investment Goal.,Goal Progress,2026-03-11 10:28:56,False
+141,98,,273,Congratulations! You reached your goal: Home Deposit.,Goal Completed,2026-03-29 03:39:58,False
+142,100,,279,Nice progress! You are close to reaching your goal: Vacation Fund.,Goal Progress,2026-03-24 11:40:54,True
+143,1,,,Weekly summary is ready to view.,Security,2026-03-13 00:14:26,True
+144,1,,,A new login was detected on your account.,Summary,2026-03-19 20:05:45,False
+145,1,,,Weekly summary is ready to view.,Security,2026-03-19 06:07:15,True
+146,2,,,Review your latest transactions for accuracy.,Summary,2026-03-10 10:50:50,True
+147,3,,,Weekly summary is ready to view.,Security,2026-03-22 07:12:11,False
+148,3,,,A new login was detected on your account.,Security,2026-03-09 11:50:32,True
+149,3,,,Review your latest transactions for accuracy.,Security,2026-03-19 08:26:58,True
+150,4,,,Your monthly spending report has been updated.,Reminder,2026-03-17 13:35:07,False
+151,4,,,Weekly summary is ready to view.,Security,2026-03-14 14:19:41,True
+152,5,,,Review your latest transactions for accuracy.,Reminder,2026-03-27 18:16:36,True
+153,5,,,Review your latest transactions for accuracy.,Reminder,2026-03-23 19:44:01,False
+154,5,,,Weekly summary is ready to view.,Reminder,2026-03-24 17:06:08,False
+155,6,,,Weekly summary is ready to view.,Security,2026-03-01 04:44:39,True
+156,6,,,Your monthly spending report has been updated.,Security,2026-03-30 17:37:57,False
+157,7,,,A new login was detected on your account.,Security,2026-03-02 13:31:22,False
+158,8,,,Weekly summary is ready to view.,Summary,2026-03-25 21:42:01,True
+159,8,,,Weekly summary is ready to view.,Reminder,2026-03-19 23:28:39,False
+160,9,,,Review your latest transactions for accuracy.,Security,2026-03-26 20:28:00,False
+161,9,,,Review your latest transactions for accuracy.,Reminder,2026-03-01 02:25:21,False
+162,9,,,Weekly summary is ready to view.,Summary,2026-03-10 13:26:08,False
+163,10,,,A new login was detected on your account.,Summary,2026-03-05 11:04:27,True
+164,10,,,Weekly summary is ready to view.,Summary,2026-03-13 03:50:51,False
+165,11,,,Your monthly spending report has been updated.,Reminder,2026-03-30 21:18:31,False
+166,12,,,Review your latest transactions for accuracy.,Reminder,2026-03-12 03:13:27,True
+167,12,,,A new login was detected on your account.,Reminder,2026-03-01 20:17:17,False
+168,13,,,A new login was detected on your account.,Reminder,2026-03-18 01:52:02,True
+169,14,,,Your monthly spending report has been updated.,Reminder,2026-03-03 14:06:17,True
+170,14,,,Weekly summary is ready to view.,Summary,2026-03-04 05:39:02,False
+171,15,,,A new login was detected on your account.,Summary,2026-03-19 06:25:40,True
+172,15,,,Review your latest transactions for accuracy.,Reminder,2026-03-28 22:13:05,True
+173,15,,,A new login was detected on your account.,Reminder,2026-03-09 13:01:29,True
+174,16,,,Your monthly spending report has been updated.,Reminder,2026-03-11 04:06:37,True
+175,16,,,A new login was detected on your account.,Summary,2026-03-05 05:59:39,True
+176,16,,,Weekly summary is ready to view.,Summary,2026-03-10 05:54:14,True
+177,17,,,A new login was detected on your account.,Security,2026-03-16 18:44:28,True
+178,18,,,Your monthly spending report has been updated.,Summary,2026-03-26 22:59:11,True
+179,18,,,Review your latest transactions for accuracy.,Reminder,2026-03-02 10:52:14,False
+180,19,,,Your monthly spending report has been updated.,Reminder,2026-03-06 16:17:22,True
+181,19,,,Your monthly spending report has been updated.,Reminder,2026-03-22 18:13:34,False
+182,20,,,A new login was detected on your account.,Summary,2026-03-03 00:28:18,True
+183,20,,,A new login was detected on your account.,Reminder,2026-03-15 13:53:17,True
+184,20,,,Review your latest transactions for accuracy.,Summary,2026-03-01 00:37:10,True
+185,21,,,Review your latest transactions for accuracy.,Summary,2026-03-29 13:40:53,True
+186,22,,,Your monthly spending report has been updated.,Security,2026-03-02 02:07:24,True
+187,23,,,Weekly summary is ready to view.,Summary,2026-03-25 13:34:50,True
+188,23,,,Review your latest transactions for accuracy.,Summary,2026-03-31 05:58:33,True
+189,23,,,Review your latest transactions for accuracy.,Security,2026-03-21 20:41:46,True
+190,24,,,Review your latest transactions for accuracy.,Summary,2026-03-03 16:59:53,True
+191,24,,,Review your latest transactions for accuracy.,Security,2026-03-30 11:41:03,False
+192,25,,,A new login was detected on your account.,Security,2026-03-08 08:57:59,True
+193,25,,,Weekly summary is ready to view.,Summary,2026-03-14 21:56:31,True
+194,26,,,Weekly summary is ready to view.,Security,2026-03-05 14:28:20,True
+195,26,,,A new login was detected on your account.,Security,2026-03-29 06:43:05,False
+196,27,,,Weekly summary is ready to view.,Reminder,2026-03-14 18:33:07,False
+197,28,,,Your monthly spending report has been updated.,Reminder,2026-03-28 03:32:23,True
+198,28,,,Your monthly spending report has been updated.,Summary,2026-03-30 00:56:18,False
+199,28,,,Your monthly spending report has been updated.,Summary,2026-03-29 18:17:26,False
+200,29,,,Weekly summary is ready to view.,Security,2026-03-27 13:49:07,True
+201,29,,,A new login was detected on your account.,Security,2026-03-02 23:03:05,True
+202,30,,,Your monthly spending report has been updated.,Summary,2026-03-30 15:14:28,False
+203,30,,,Review your latest transactions for accuracy.,Security,2026-03-12 21:57:51,False
+204,30,,,Weekly summary is ready to view.,Reminder,2026-03-11 10:30:10,True
+205,31,,,A new login was detected on your account.,Summary,2026-03-21 07:34:26,False
+206,32,,,Review your latest transactions for accuracy.,Security,2026-03-16 21:58:55,True
+207,33,,,Review your latest transactions for accuracy.,Summary,2026-03-26 15:10:22,True
+208,33,,,Review your latest transactions for accuracy.,Summary,2026-03-12 19:44:14,True
+209,33,,,Your monthly spending report has been updated.,Summary,2026-03-23 11:04:42,True
+210,34,,,Weekly summary is ready to view.,Summary,2026-03-20 18:33:11,False
+211,35,,,Review your latest transactions for accuracy.,Summary,2026-03-07 21:05:06,True
+212,35,,,Your monthly spending report has been updated.,Security,2026-03-30 16:01:29,False
+213,35,,,Weekly summary is ready to view.,Summary,2026-03-29 18:05:10,True
+214,36,,,A new login was detected on your account.,Reminder,2026-03-11 21:37:14,False
+215,36,,,A new login was detected on your account.,Reminder,2026-03-30 12:14:33,False
+216,36,,,A new login was detected on your account.,Summary,2026-03-11 23:17:55,False
+217,37,,,Weekly summary is ready to view.,Reminder,2026-03-14 12:11:52,True
+218,37,,,Weekly summary is ready to view.,Summary,2026-03-07 14:14:25,True
+219,37,,,Review your latest transactions for accuracy.,Reminder,2026-03-27 11:30:59,True
+220,38,,,Weekly summary is ready to view.,Security,2026-03-03 22:34:53,True
+221,38,,,Review your latest transactions for accuracy.,Security,2026-03-29 17:14:13,False
+222,38,,,Your monthly spending report has been updated.,Security,2026-03-03 09:44:53,False
+223,39,,,A new login was detected on your account.,Security,2026-03-31 11:28:22,True
+224,39,,,Weekly summary is ready to view.,Summary,2026-03-29 01:59:08,False
+225,40,,,Review your latest transactions for accuracy.,Security,2026-03-28 05:30:20,False
+226,40,,,Weekly summary is ready to view.,Security,2026-03-17 19:04:11,False
+227,41,,,Your monthly spending report has been updated.,Reminder,2026-03-04 21:25:22,True
+228,41,,,Review your latest transactions for accuracy.,Reminder,2026-03-09 08:28:16,True
+229,42,,,A new login was detected on your account.,Reminder,2026-03-21 13:52:59,False
+230,43,,,A new login was detected on your account.,Reminder,2026-03-27 05:28:51,True
+231,43,,,A new login was detected on your account.,Security,2026-03-11 05:55:33,True
+232,43,,,Your monthly spending report has been updated.,Security,2026-03-01 04:12:02,True
+233,44,,,Your monthly spending report has been updated.,Reminder,2026-03-19 09:12:39,False
+234,45,,,A new login was detected on your account.,Summary,2026-03-04 01:09:53,True
+235,46,,,A new login was detected on your account.,Summary,2026-03-10 21:08:43,True
+236,46,,,Weekly summary is ready to view.,Reminder,2026-03-10 01:07:28,False
+237,46,,,A new login was detected on your account.,Reminder,2026-03-21 03:36:11,True
+238,47,,,A new login was detected on your account.,Reminder,2026-03-12 03:07:00,False
+239,48,,,Review your latest transactions for accuracy.,Summary,2026-03-22 05:56:18,True
+240,48,,,Weekly summary is ready to view.,Security,2026-03-19 19:14:50,False
+241,48,,,Review your latest transactions for accuracy.,Reminder,2026-03-18 14:29:26,True
+242,49,,,Review your latest transactions for accuracy.,Security,2026-03-24 12:28:38,True
+243,49,,,Weekly summary is ready to view.,Reminder,2026-03-29 14:09:07,False
+244,49,,,Your monthly spending report has been updated.,Summary,2026-03-21 18:44:43,True
+245,50,,,Weekly summary is ready to view.,Reminder,2026-03-26 01:25:47,False
+246,50,,,Review your latest transactions for accuracy.,Security,2026-03-06 17:31:15,False
+247,51,,,Review your latest transactions for accuracy.,Security,2026-03-07 21:23:32,False
+248,51,,,Your monthly spending report has been updated.,Summary,2026-03-03 02:55:13,False
+249,52,,,Your monthly spending report has been updated.,Security,2026-03-18 12:30:17,False
+250,52,,,Review your latest transactions for accuracy.,Security,2026-03-10 07:07:13,True
+251,53,,,Weekly summary is ready to view.,Reminder,2026-03-12 12:04:12,False
+252,53,,,Your monthly spending report has been updated.,Summary,2026-03-29 07:42:46,True
+253,53,,,Weekly summary is ready to view.,Reminder,2026-03-10 13:00:54,False
+254,54,,,Review your latest transactions for accuracy.,Security,2026-03-02 15:08:18,True
+255,54,,,Weekly summary is ready to view.,Reminder,2026-03-16 19:39:38,False
+256,55,,,Review your latest transactions for accuracy.,Reminder,2026-03-30 00:34:51,False
+257,56,,,Weekly summary is ready to view.,Security,2026-03-30 22:10:31,False
+258,56,,,Weekly summary is ready to view.,Summary,2026-03-12 23:58:10,False
+259,56,,,A new login was detected on your account.,Reminder,2026-03-01 14:40:46,True
+260,57,,,Weekly summary is ready to view.,Summary,2026-03-06 01:19:03,False
+261,57,,,Your monthly spending report has been updated.,Summary,2026-03-27 05:12:24,True
+262,58,,,Weekly summary is ready to view.,Reminder,2026-03-27 22:47:37,False
+263,58,,,Weekly summary is ready to view.,Summary,2026-03-26 02:13:01,False
+264,58,,,Your monthly spending report has been updated.,Security,2026-03-13 02:51:48,False
+265,59,,,Weekly summary is ready to view.,Reminder,2026-03-15 18:27:50,False
+266,59,,,Weekly summary is ready to view.,Security,2026-03-06 12:24:31,True
+267,60,,,Weekly summary is ready to view.,Security,2026-03-26 17:11:26,False
+268,60,,,Review your latest transactions for accuracy.,Summary,2026-03-02 14:13:59,True
+269,61,,,Your monthly spending report has been updated.,Security,2026-03-03 21:46:59,True
+270,62,,,A new login was detected on your account.,Summary,2026-03-25 19:51:28,True
+271,63,,,Review your latest transactions for accuracy.,Summary,2026-03-15 07:06:50,False
+272,63,,,Review your latest transactions for accuracy.,Summary,2026-03-27 08:36:39,True
+273,63,,,A new login was detected on your account.,Summary,2026-03-14 15:33:26,True
+274,64,,,A new login was detected on your account.,Summary,2026-03-11 09:34:22,True
+275,64,,,Your monthly spending report has been updated.,Summary,2026-03-14 03:08:47,False
+276,65,,,Review your latest transactions for accuracy.,Summary,2026-03-16 00:06:17,False
+277,65,,,Review your latest transactions for accuracy.,Security,2026-03-04 22:44:23,True
+278,65,,,Review your latest transactions for accuracy.,Reminder,2026-03-26 03:46:09,False
+279,66,,,Your monthly spending report has been updated.,Summary,2026-03-23 18:43:36,True
+280,66,,,Review your latest transactions for accuracy.,Reminder,2026-03-22 18:13:26,False
+281,66,,,A new login was detected on your account.,Summary,2026-03-04 10:04:05,True
+282,67,,,Review your latest transactions for accuracy.,Summary,2026-03-01 18:46:04,True
+283,67,,,Your monthly spending report has been updated.,Security,2026-03-16 10:24:42,False
+284,67,,,Your monthly spending report has been updated.,Reminder,2026-03-19 17:44:13,False
+285,68,,,Review your latest transactions for accuracy.,Summary,2026-03-31 05:26:48,False
+286,68,,,Your monthly spending report has been updated.,Security,2026-03-22 13:49:28,False
+287,69,,,Weekly summary is ready to view.,Summary,2026-03-09 04:52:12,False
+288,70,,,Your monthly spending report has been updated.,Security,2026-03-22 19:43:17,True
+289,70,,,A new login was detected on your account.,Summary,2026-03-30 14:04:44,False
+290,70,,,Your monthly spending report has been updated.,Reminder,2026-03-16 12:27:16,False
+291,71,,,A new login was detected on your account.,Reminder,2026-03-14 00:41:20,False
+292,71,,,A new login was detected on your account.,Summary,2026-03-08 02:45:01,False
+293,71,,,Review your latest transactions for accuracy.,Security,2026-03-30 01:46:09,False
+294,72,,,A new login was detected on your account.,Security,2026-03-04 06:46:22,False
+295,73,,,Weekly summary is ready to view.,Summary,2026-03-22 08:50:33,True
+296,74,,,Weekly summary is ready to view.,Summary,2026-03-29 13:40:21,False
+297,74,,,Weekly summary is ready to view.,Summary,2026-03-21 12:53:13,True
+298,75,,,Your monthly spending report has been updated.,Summary,2026-03-16 10:01:21,False
+299,75,,,Your monthly spending report has been updated.,Summary,2026-03-31 05:46:26,True
+300,76,,,Review your latest transactions for accuracy.,Reminder,2026-03-09 12:44:58,True
+301,77,,,Weekly summary is ready to view.,Security,2026-03-29 22:33:13,False
+302,77,,,A new login was detected on your account.,Reminder,2026-03-24 08:45:22,False
+303,78,,,Weekly summary is ready to view.,Summary,2026-03-07 00:30:40,True
+304,78,,,Weekly summary is ready to view.,Reminder,2026-03-11 12:19:02,True
+305,78,,,Review your latest transactions for accuracy.,Security,2026-03-31 09:06:23,False
+306,79,,,A new login was detected on your account.,Reminder,2026-03-05 09:46:01,False
+307,79,,,A new login was detected on your account.,Summary,2026-03-11 20:53:41,False
+308,80,,,Review your latest transactions for accuracy.,Security,2026-03-16 13:16:19,False
+309,81,,,Your monthly spending report has been updated.,Reminder,2026-03-06 03:19:35,True
+310,81,,,Review your latest transactions for accuracy.,Security,2026-03-06 08:45:57,True
+311,81,,,A new login was detected on your account.,Summary,2026-03-13 11:18:47,False
+312,82,,,Weekly summary is ready to view.,Reminder,2026-03-31 13:03:03,True
+313,83,,,Your monthly spending report has been updated.,Summary,2026-03-14 21:21:58,False
+314,83,,,Review your latest transactions for accuracy.,Reminder,2026-03-20 05:26:24,True
+315,83,,,A new login was detected on your account.,Summary,2026-03-28 08:57:45,True
+316,84,,,Weekly summary is ready to view.,Security,2026-03-17 21:47:02,False
+317,84,,,A new login was detected on your account.,Reminder,2026-03-21 17:24:06,False
+318,85,,,Your monthly spending report has been updated.,Reminder,2026-03-31 03:44:04,True
+319,85,,,Review your latest transactions for accuracy.,Reminder,2026-03-15 11:30:17,True
+320,86,,,Your monthly spending report has been updated.,Reminder,2026-03-17 15:27:31,True
+321,87,,,A new login was detected on your account.,Security,2026-03-10 15:51:04,False
+322,87,,,A new login was detected on your account.,Reminder,2026-03-03 07:57:38,True
+323,87,,,A new login was detected on your account.,Summary,2026-03-18 01:32:58,False
+324,88,,,Your monthly spending report has been updated.,Security,2026-03-24 22:20:40,False
+325,89,,,A new login was detected on your account.,Summary,2026-03-15 01:37:13,True
+326,90,,,Weekly summary is ready to view.,Reminder,2026-03-06 22:04:09,False
+327,90,,,A new login was detected on your account.,Summary,2026-03-31 10:13:40,True
+328,90,,,A new login was detected on your account.,Summary,2026-03-06 13:26:25,True
+329,91,,,Weekly summary is ready to view.,Security,2026-03-18 10:25:26,True
+330,91,,,Weekly summary is ready to view.,Reminder,2026-03-05 16:35:21,False
+331,91,,,Weekly summary is ready to view.,Summary,2026-03-27 02:45:07,True
+332,92,,,Weekly summary is ready to view.,Security,2026-03-02 04:50:24,True
+333,93,,,A new login was detected on your account.,Security,2026-03-24 04:29:59,False
+334,93,,,Weekly summary is ready to view.,Reminder,2026-03-09 02:57:03,False
+335,94,,,Your monthly spending report has been updated.,Reminder,2026-03-18 15:26:18,False
+336,94,,,Weekly summary is ready to view.,Reminder,2026-03-01 22:43:16,False
+337,95,,,Review your latest transactions for accuracy.,Summary,2026-03-11 22:56:06,False
+338,96,,,Review your latest transactions for accuracy.,Security,2026-03-04 06:31:09,True
+339,96,,,Weekly summary is ready to view.,Summary,2026-03-06 06:04:19,False
+340,97,,,Review your latest transactions for accuracy.,Summary,2026-03-14 13:32:02,True
+341,97,,,A new login was detected on your account.,Security,2026-03-09 17:21:48,False
+342,97,,,A new login was detected on your account.,Summary,2026-03-28 13:22:55,False
+343,98,,,Weekly summary is ready to view.,Security,2026-03-14 04:33:44,False
+344,99,,,Your monthly spending report has been updated.,Summary,2026-03-20 20:02:45,True
+345,99,,,Weekly summary is ready to view.,Security,2026-03-02 22:53:38,False
+346,100,,,Your monthly spending report has been updated.,Reminder,2026-03-24 10:46:50,False

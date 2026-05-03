@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{% block title %}Budgets{% endblock %}
+
+{% block content %}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="mb-1">Budgets</h2>
+        <p class="text-muted mb-0">Set monthly spending limits and track how you're doing.</p>
+    </div>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addBudgetModal">
+        <i class="bi bi-plus-lg"></i> Add Budget
+    </button>
+</div>
+
+<!-- Summary cards -->
+<div class="row g-3 mb-4">
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm" style="border-radius:12px;">
+            <div class="card-body">
+                <div class="text-muted small mb-1">Total Budgeted</div>
+                <h4 class="mb-0">${{ "{:,.2f}".format(total_budgeted) }}</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm" style="border-radius:12px;">
+            <div class="card-body">
+                <div class="text-muted small mb-1">Total Spent</div>
+                <h4 class="text-danger mb-0">${{ "{:,.2f}".format(total_spent) }}</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm" style="border-radius:12px;">
+            <div class="card-body">
+                <div class="text-muted small mb-1">Remaining</div>
+                <h4 class="text-success mb-0">${{ "{:,.2f}".format(total_budgeted - total_spent) }}</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if budget_list %}
+
+<!-- Budget vs Spending Chart -->
+<div class="card border-0 shadow-sm mb-4" style="border-radius:12px;">
+    <div class="card-body">
+        <h5 class="mb-3">
+            <i class="bi bi-bar-chart text-primary me-2"></i>Budget vs Actual Spending
+        </h5>
+        <p class="text-muted small mb-3">
+            Grouped bar chart comparing your set budget limit against actual spending per category.
+        </p>
+        <canvas id="budgetChart" height="100"></canvas>
+    </div>
+</div>
+
+<!-- Budget cards -->
+<div class="row g-3">
+    {% for b in budget_list %}
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm h-100" style="border-radius:12px;">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div>
+                        <h5 class="mb-1">{{ b.category_name }}</h5>
+                        <div class="d-flex gap-2">
+                            {% if b.is_active %}
+                            <span class="badge bg-success bg-opacity-10 text-success">Active</span>
+                            {% else %}
+                            <span class="badge bg-secondary bg-opacity-10 text-secondary">Inactive</span>
+                            {% endif %}
+                            {% if b.pct >= 100 %}
+                            <span class="badge bg-danger">Over Budget</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="text-end">
+                        <div class="small text-muted">
+                            {{ b.budget.start_date.strftime('%b %d') }} –
+                            {{ b.budget.end_date.strftime('%b %d, %Y') }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between small text-muted mb-1">
+                    <span>Spent: <strong class="text-dark">${{ "{:,.2f}".format(b.spent) }}</strong></span>
+                    <span>Limit: <strong class="text-dark">${{ "{:,.2f}".format(b.limit) }}</strong></span>
+                </div>
+
+                <div class="progress mb-2" style="height:10px; border-radius:6px;">
+                    <div class="progress-bar bg-{{ b.status }}"
+                         style="width:{{ b.pct }}%; border-radius:6px;"
+                         role="progressbar">
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between small">
+                    <span class="text-{{ b.status }} fw-semibold">{{ b.pct }}% used</span>
+                    <span class="text-muted">
+                        ${{ "{:,.2f}".format(b.remaining) }} remaining
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% else %}
+<div class="card border-0 shadow-sm text-center py-5" style="border-radius:12px;">
+    <div class="card-body">
+        <i class="bi bi-wallet text-muted" style="font-size:3rem;"></i>
+        <h5 class="mt-3 mb-2">No budgets yet</h5>
+        <p class="text-muted mb-4">
+            Set a monthly spending limit per category to start tracking.
+        </p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addBudgetModal">
+            <i class="bi bi-plus-lg"></i> Add Your First Budget
+        </button>
+    </div>
+</div>
+{% endif %}
+
+
+<!-- Add Budget Modal -->
+<div class="modal fade" id="addBudgetModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content" style="border-radius:12px;">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title">Add New Budget</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="{{ url_for('budgets.index') }}">
+                    {{ form.hidden_tag() }}
+                    <div class="mb-3">
+                        {{ form.category_id.label(class="form-label") }}
+                        {{ form.category_id(class="form-select") }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.monthly_limit.label(class="form-label") }}
+                        <div class="input-group">
+                            <span class="input-group-text">$</span>
+                            {{ form.monthly_limit(class="form-control") }}
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {{ form.start_date.label(class="form-label") }}
+                        {{ form.start_date(class="form-control", type="date") }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.end_date.label(class="form-label") }}
+                        {{ form.end_date(class="form-control", type="date") }}
+                    </div>
+                    <div class="d-grid">
+                        {{ form.submit(class="btn btn-primary") }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const ctx = document.getElementById('budgetChart');
+if (ctx) {
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: {{ chart_labels | tojson }},
+            datasets: [
+                {
+                    label: 'Budget Limit',
+                    data: {{ chart_limits | tojson }},
+                    backgroundColor: 'rgba(13, 110, 253, 0.15)',
+                    borderColor: 'rgba(13, 110, 253, 0.8)',
+                    borderWidth: 2,
+                    borderRadius: 6,
+                },
+                {
+                    label: 'Amount Spent',
+                    data: {{ chart_spent | tojson }},
+                    backgroundColor: 'rgba(220, 53, 69, 0.15)',
+                    borderColor: 'rgba(220, 53, 69, 0.8)',
+                    borderWidth: 2,
+                    borderRadius: 6,
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { position: 'top' },
+                tooltip: {
+                    callbacks: {
+                        label: ctx => '$' + ctx.parsed.y.toLocaleString('en-US', {minimumFractionDigits: 2})
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: val => '$' + val.toLocaleString()
+                    }
+                }
+            }
+        }
+    });
+}
+</script>
+
+{% endblock %}

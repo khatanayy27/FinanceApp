@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% block title %}Accounts{% endblock %}
+
+{% block content %}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="mb-1">Bank Accounts</h2>
+        <p class="text-muted mb-0">Manage and view all your accounts.</p>
+    </div>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addAccountModal">
+        <i class="bi bi-plus-lg"></i> Add Account
+    </button>
+</div>
+
+<div class="card border-0 bg-dark text-white mb-4" style="border-radius: 12px;">
+    <div class="card-body d-flex justify-content-between align-items-center py-3">
+        <div>
+            <div class="small text-white-50 mb-1">Total Balance Across All Accounts</div>
+            <h2 class="mb-0">${{ "{:,.2f}".format(total_balance) }}</h2>
+        </div>
+        <i class="bi bi-bank2 opacity-25" style="font-size: 4rem;"></i>
+    </div>
+</div>
+
+{% if accounts %}
+<div class="card border-0 shadow-sm mb-4" style="border-radius: 12px;">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th class="ps-4">Account Name</th>
+                        <th>Type</th>
+                        <th>Current Balance</th>
+                        <th>Total Income</th>
+                        <th>Total Expenses</th>
+                        <th>Transactions</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in accounts %}
+                    <tr>
+                        <td class="ps-4">
+                            <div class="fw-semibold">{{ row.BankAccount.account_name }}</div>
+                            {% if row.BankAccount.credit_last4 %}
+                            <div class="text-muted small">
+                                <i class="bi bi-credit-card"></i>
+                                &bull;&bull;&bull;&bull; {{ row.BankAccount.credit_last4 }}
+                            </div>
+                            {% endif %}
+                        </td>
+                        <td><span class="badge bg-secondary">{{ row.type_name or 'Unknown' }}</span></td>
+                        <td><span class="fw-semibold">${{ "{:,.2f}".format(row.BankAccount.current_balance) }}</span></td>
+                        <td class="text-success">+${{ "{:,.2f}".format(row.total_income) }}</td>
+                        <td class="text-danger">-${{ "{:,.2f}".format(row.total_expenses) }}</td>
+                        <td><span class="badge bg-light text-dark border">{{ row.transaction_count }}</span></td>
+                        <td>
+                            <a href="{{ url_for('accounts.account_detail', account_id=row.BankAccount.account_id) }}"
+                               class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-eye"></i> View
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<h5 class="mb-3">Account Cards</h5>
+<div class="row g-3">
+    {% for row in accounts %}
+    <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm h-100" style="border-radius: 12px;">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div>
+                        <h5 class="card-title mb-1">{{ row.BankAccount.account_name }}</h5>
+                        <span class="badge bg-secondary">{{ row.type_name or 'Unknown' }}</span>
+                    </div>
+                    <i class="bi bi-bank text-muted fs-3"></i>
+                </div>
+                <div class="text-muted small mb-1">Current Balance</div>
+                <h3 class="mb-3">${{ "{:,.2f}".format(row.BankAccount.current_balance) }}</h3>
+                <div class="row text-center g-2">
+                    <div class="col-6">
+                        <div class="bg-success bg-opacity-10 rounded p-2">
+                            <div class="small text-muted">Income</div>
+                            <div class="fw-semibold text-success small">+${{ "{:,.2f}".format(row.total_income) }}</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="bg-danger bg-opacity-10 rounded p-2">
+                            <div class="small text-muted">Expenses</div>
+                            <div class="fw-semibold text-danger small">-${{ "{:,.2f}".format(row.total_expenses) }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="{{ url_for('accounts.account_detail', account_id=row.BankAccount.account_id) }}"
+                       class="btn btn-outline-primary btn-sm w-100">
+                        <i class="bi bi-eye"></i> View Transactions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% else %}
+<div class="card border-0 shadow-sm text-center py-5" style="border-radius: 12px;">
+    <div class="card-body">
+        <i class="bi bi-bank text-muted" style="font-size: 4rem;"></i>
+        <h4 class="mt-3 mb-2">No accounts yet</h4>
+        <p class="text-muted mb-4">Add your first bank account to start tracking.</p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addAccountModal">
+            <i class="bi bi-plus-lg"></i> Add Your First Account
+        </button>
+    </div>
+</div>
+{% endif %}
+
+<!-- Add Account Modal -->
+<div class="modal fade" id="addAccountModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content" style="border-radius: 12px;">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title">Add New Account</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="{{ url_for('accounts.index') }}">
+                    {{ form.hidden_tag() }}
+                    <div class="mb-3">
+                        {{ form.account_name.label(class="form-label") }}
+                        {{ form.account_name(class="form-control") }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.account_type_id.label(class="form-label") }}
+                        {{ form.account_type_id(class="form-select") }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.current_balance.label(class="form-label") }}
+                        <div class="input-group">
+                            <span class="input-group-text">$</span>
+                            {{ form.current_balance(class="form-control") }}
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {{ form.credit_last4.label(class="form-label") }}
+                        <div class="text-muted small mb-1">Only fill in for credit card accounts.</div>
+                        {{ form.credit_last4(class="form-control") }}
+                    </div>
+                    <div class="d-grid">
+                        {{ form.submit(class="btn btn-primary") }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
